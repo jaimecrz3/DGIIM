@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="algoritmo_dyv"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dyv">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/dyv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 dyv"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dyv/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/dyv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 dyv/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="especifico">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/especifico" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 especifico"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="especifico/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/especifico" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 especifico/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dyv_sin_umbral">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/dyv_sin_umbral" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 dyv_sin_umbral"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dyv_sin_umbral/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/dyv_sin_umbral" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 dyv_sin_umbral/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dyv_con_umbral">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/dyv_con_umbral" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 dyv_con_umbral"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dyv_con_umbral/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/dyv_con_umbral" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 dyv_con_umbral/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generador">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/generador" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 generador"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generador/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/generador" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 generador/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/dyv.cpp">
+			<Option target="dyv"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/dyv_con_umbral.cpp">
+			<Option target="dyv_con_umbral"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/dyv_sin_umbral.cpp">
+			<Option target="dyv_sin_umbral"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/especifico.cpp">
+			<Option target="especifico"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/generador.cpp">
+			<Option target="generador"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica2/practica2_dyv/algoritmo_dyv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

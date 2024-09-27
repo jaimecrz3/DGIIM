@@ -1,0 +1,171 @@
+/*! \mainpage Práctica 1. Imágenes
+
+
+# Introducción
+En esta primera práctica nos centraremos la clase `Image` y la usaremos para diferentes tareas de tratamiento de
+imágenes que se deberán implementar, tales como convertir una imagen a su negativo o realizarle un zoom.
+
+Además, estudiaremos dos formas distintas de representar internamente esta clase así como analizar el impacto en la
+eficiencia del programa dependiendo de cuál se utilice.
+
+
+### Ejecutables:
+- @ref negativo
+- @ref subimagen
+- @ref zoom
+- @ref icono
+- @ref contraste
+- @ref barajar
+
+### Representaciones:
+- @ref page_repImagen
+
+### Análisis de la eficiencia
+- @ref eficiencia
+
+@page exe Ejecutables
+@brief Lista con todos los ejecutables
+
+@subsection negativo Negativo
+@image html invert.png
+Calcula el negativo de una imagen
+
+> __negativo__ \<FichImagenOriginal\> \<FichImagenDestino\>
+@param "<FichImagenOriginal>" Imagen PGM a la que se va a calcular
+@param <FichImagenDestino> Imagen PGM resultado de calcular el negativo
+
+___
+
+@subsection subimagen Subimagen
+@image html crop.png
+Genera, por copia, una imagen PGM a partir de otra imagen PGM. La imagen generada será, necesariamente, de un tamaño menor o igual que la original
+> __subimagen__ \<fich_orig\> \<fich_rdo\> \<fila\> \<col\> \<filas_sub\> \<cols_sub\>
+@param "<fich_orig>" Nombre del fichero que contiene la imagen original.
+@param "<fich_rdo>" Nombre del fichero que contendrá la subimagen resultado.
+@param "<fila>" Coordenada @b Y (sobre la imagen original) de la esquina superior izquierda de la subimagen que se va a extraer.
+@param "<col>" Coordenada @b X (sobre la imagen original) de la esquina superior izquierda de la subimagen que se va a extraer.
+@param "<filas_sub>" Número de filas de la subimagen que se va a extraer.
+@param "<cols_sub>" Número de columnas de la subimagen que se va a extraer.
+
+___
+
+@subsection zoom Zoom
+@image html zoom.png
+Realiza un zoom 2X de una porción de la imagen mediante un simple procedimiento de interpolación.
+> __zoom__ \<fich_orig\> \<fich_rdo\> \<fila\> \<col\> \<lado\>
+@param "<fich_orig>" Nombre del fichero que contiene la imagen original.
+@param "<fich_rdo>" Nombre del fichero que contendrá el resultado del zoom.
+@param "<fila>" Coordenada @b Y (sobre la imagen original) de la esquina superior izquierda de la subimagen que se va a extraer.
+@param "<col>" Coordenada @b X (sobre la imagen original) de la esquina superior izquierda de la subimagen que se va a extraer.
+@param "<lado>" Tamaño del lado del cuadrado.
+@post Si el cuadrado descrito no está totalmente incluído en la imagen se creará el mayor cuadrado posible.
+
+___
+
+@subsection icono Icono
+@image html icono.png
+Crea una imagen de un tamaño muy reducido a partir de una imagen original a través de un algoritmo de reducción.
+> __icono__ \<fich_orig\> \<fich_rdo\> \<factor\>
+@param "<fich_orig>" Nombre del fichero que contiene la imagen original.
+@param "<fich_rdo>" Nombre del fichero donde se guardará el icono.
+@param "<factor>" factor de reducción.
+@post La imagen resultante tendrá (filas/factor)x(cols/factor).
+
+___
+
+@subsection contraste Contraste
+@image html contraste.png
+Genera una imagen de niveles de gris con más contraste que la original.
+> __contraste__ \<fich_orig\> \<fich_rdo\> \<e1\> \<e2\> \<s1\> \<s2\>
+@param "<fich_orig>" Nombre del fichero que contiene la imagen original.
+@param "<fich_rdo>" Nombre del fichero que contendrá la imagen resultado.
+@param "<e1>" Umbral inferior de la imagen de entrada.
+@param "<e2>" Umbral superior de la imagen de entrada.
+@param "<s1>" Umbral inferior de la imagen de salida.
+@param "<s2>" Umbral superior de la imagen de salida.
+@pre 0 <= (e1, e2, s1, s2) <= 255
+@pre @p e1 < @p e2
+@pre @p s1 < @p s2
+
+___
+
+@subsection barajar Barajar
+@image html shuffle.png
+Genera una imagen a partir de un barajado pseudoaleatorio de las filas de otra imagen
+> __barajar__ \<fich_orig\> \<fich_rdo\>
+@param "<fich_orig>" Nombre del fichero que contiene a la imagen original.
+@param "<fich_rdo>" Nombre del fichero que contendrá la imagen resultado.
+
+
+
+
+
+
+@page eficiencia Análisis de eficiencia
+
+Estudiaremos la eficiencia de ambas representaciones al utilizar el método [`ShuffleRows()`](classImage.html#a27d5bab7af11a729048b82af06f2d0c0)
+
+> [__Enlace__ a las gráficas del análisis de eficiencia](https://ugres-my.sharepoint.com/:x:/g/personal/e_jaimecrz04_ms_ugr_es/Ee4cMK-BpR9BvLF1enI-bh4BGf4G8KANg5IBchN-gCg4cQ?e=aH1sLr).
+
+@section primera_rep Primera Representación
+@ref sec_Image_A
+
+## Filas y Columnas variables:
+El análisis teórico nos indica que estamos ante una eficiencia de __O(rows*cols)__
+ya que tenemos que recorrer las filas y columnas completas al ejecutar Shufflerows.
+
+Esto coincide con el análisis empírico ya que la gráfica que mejor ajusta los datos,
+es decir, la que tiene un coeficiente de correlación(R² entre [0,1]) mayor es la
+__polinomial de grado dos__, como esperábamos.
+
+@image html 1_Rows&Cols.png
+
+## Filas fijas (filas = 100) / Columnas fijas (columnas = 100):
+El análisis teórico nos indica que estamos ante una eficiencia de __O(rows),O(cols)__ (respectivamente)
+ya que solo movemos o por un lado las columnas o por otro lado las filas.
+
+Esto coincide con el análisis empírico ya que la gráfica que mejor ajusta los datos,
+es decir, la que tiene un coeficiente de correlación(R² entre [0,1]) mayor es la
+__polinomial de grado uno__, como esperábamos.
+
+@image html 1_rows.png
+@image html 1_cols.png
+
+@section segunda_rep Segunda Representación
+@ref sec_Image_B
+
+## Filas y Columnas variables:
+Al cambiar la representación aunque variemos filas y columnas, estamos hablando
+de __O(rows)__, ya que solo necesitamos variar las filas.
+
+Esto coincide con el análisis empírico ya que si miramos la gráfica, la que mejor
+la ajusta es una __polinomial de grado uno__, como esperábamos.
+
+@image html 2_rows&cols.png
+
+## Filas fijas (filas = 100):
+En este caso, como ya hemos comentado, la nueva represantación solo afecta a las filas,
+luego si las filas quedan fijas, estamos antes __O(1)__.
+
+Esto coincide con el análisis empírico ya que el ajuste es __constante__.
+
+@image html 2_rows.png
+
+## Columnas fijas (columnas = 100):
+Por último si variamos solo las filas, nos va a salir claramente __O(rows)__
+ya que como hemos comentado anteriormente, para esta representación
+solo tenemos que recorrer las filas.
+
+Esto coincide con el análisis empírico ya que el ajuste es __polinomial de grado uno__
+como esperábamos.
+
+@image html 2_cols.png
+
+
+### Conclusión:
+Podemos observar que para el método [`ShuffleRows()`](classImage.html#a27d5bab7af11a729048b82af06f2d0c0) es más
+eficiente usar la segunda representación. Sin embargo, al ganar eficiencia en ese método también la perderemos en otros
+tales como el método [`Save()`](classImage.html#adde1007dc6359087dae65fa8cae26448), por lo que la decisión de usar
+una u otra representación dependerá de nuestras necesidades.
+
+*/

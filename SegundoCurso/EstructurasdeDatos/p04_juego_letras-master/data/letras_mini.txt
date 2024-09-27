@@ -1,0 +1,8 @@
+Letra Cantidad Puntos
+A	12	1
+C	5	3
+L	1	1
+M	2	3
+O	9	1
+R	6	1
+Z	1	10

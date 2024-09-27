@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "practica4_grafos",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "backtracking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-backtracking-Debug-4f32f185447b8b1b3107.json",
+					"name" : "backtracking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "branchandbound::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-branchandbound-Debug-c3d00ac3eb8cd3a30f80.json",
+					"name" : "branchandbound",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generador::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generador-Debug-743f4bdcc72df930b818.json",
+					"name" : "generador",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/marta26/UNI/SEGUNDO/ALGOR\u00cdTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug",
+		"source" : "/home/marta26/UNI/SEGUNDO/ALGOR\u00cdTIMICA/practica4/practica4_grafos/practica4_grafos"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

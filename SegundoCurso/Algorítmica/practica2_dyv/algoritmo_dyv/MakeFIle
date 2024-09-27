@@ -1,0 +1,14 @@
+all: practica
+
+practica: Generador/generador Especifico/especifico Dyv/dyv
+
+generador.exe: generador.cpp ./Generador/generador.cpp
+	g++ -O2 Generador/generador.cpp -o Generador/generador
+
+especifico.exe: especifico.cpp ./Especifico/especifico.cpp
+	g++ -O2 Especifico/especifico.cpp -o Especifico/especifico
+
+dyv.exe: dyv.cpp ./Dyv/dyv.cpp
+	g++ -O2 Dyv/dyv.cpp -o Dyv/dyv
+
+

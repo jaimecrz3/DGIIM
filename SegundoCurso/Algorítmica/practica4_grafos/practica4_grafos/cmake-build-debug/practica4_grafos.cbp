@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="practica4_grafos"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="backtracking">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/backtracking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 backtracking"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="backtracking/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/backtracking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 backtracking/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="branchandbound">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/branchandbound" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 branchandbound"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="branchandbound/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/branchandbound" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 branchandbound/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generador">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/generador" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 generador"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generador/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/generador" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 generador/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/backtracking.cpp">
+			<Option target="backtracking"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/branchandbound.cpp">
+			<Option target="branchandbound"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/generador.cpp">
+			<Option target="generador"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

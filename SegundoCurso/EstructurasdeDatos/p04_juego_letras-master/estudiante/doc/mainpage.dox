@@ -1,0 +1,173 @@
+/*! \mainpage Título de la página principal
+
+# Introducción
+En esta práctica retomaremos el juego de las letras, manejando una estructura de datos alternativa
+para tratar de dar una solución más eficiente al mismo.
+Consiste en formar la mejor palabra posible a partir de un conjunto de letras extraídas al azar de una bolsa dos
+modalidades de juego:
+    - Juego a longitud: Se tiene en cuenta sólo la longitud de las palabras, y gana la palabra más larga encontrada
+    - Juego a puntos: A cada letra se le asigna una puntuación, y la puntuación de la palabra será igual a la suma de
+      las puntuaciones de las letras que la componen
+
+En esta práctica modificaremos la implementación del TDA Dictionary de la práctica anterior
+utilizando como contenedor subyacente un árbol LCRS (Left-Child Right-Sibling). De esta forma,
+podremos almacenar nuestro diccionario con menos espacio y crear un solver más eficiente.
+
+___
+
+# Contenidos:
+
+- Classes:
+    - LettersSet
+    - Bag
+    - LettersBag
+    - Dictionary
+    - Solver
+- @ref exe
+    - @ref diccionario
+    - @ref cantidad_letras
+    - @ref partida_letras
+    - @ref palabras_validas_diccionario
+    - @ref palabras_letras_eficiente
+
+
+@page exe Ejecutables
+@brief Definición y ejemplos de uso de los ejecutables
+
+@section diccionario Diccionario
+Este programa comprueba el funcionamiento correcto del iterador del diccionario implementado,
+Funcionamiento:
+Se carga el contenido del archivo que se pasa como argumento en un diccionario con
+estructura de árbol.
+Se recorre el diccionario creado con un iterador, y se imprimen por pantalla todas sus
+palabras.
+
+> __diccionario__ \<pathname\>
+@param <pathname> Ruta del archivo con la información del Dictionary
+@post Se imprimen todas las letras del diccionario
+
+__Ejemplo de ejecución:__
+> ./build/diccionario diccionario_mini.txt
+>
+@b Salida:
+> a \n
+> ama \n
+> amar \n
+>  amo \n
+> amor \n
+>  cal \n
+>  coca \n
+>  col \n
+>  coz \n
+___
+@section cantidad_letras Cantidad_letras
+Este programa permitirá comprobar el funcionamiento correcto de las funciones de conteo de letras implementadas.
+Recibirá como argumentos un fichero de diccionario y un fichero de letras,
+creará el LettersSet y el Dictionary con la información de dichos ficheros, y para cada letra del
+diccionario calculará el número de veces que se usa esa letra y el número de ocurrencias de la letra
+en la estructura de diccionario
+
+> __bolsa__ \<pathname1\> \<pathname2\>
+@param <pathname1> Ruta del archivo con la información del Dictionary
+@param <pathname2> Ruta del archivo con la información del LettersSet
+
+__Ejemplo de ejecución:__
+> ./build/cantidad_letras diccionario_mini letras_mini
+>
+@b Salida:
+> Letra	Usos	Ocurrencias \n
+> A	    9	    4 \n
+> C	    5	   2 \n
+> L	    2	    2 \n
+> M	     4	    1 \n
+> O	     5	    2 \n
+> R	     2 	    2 \n
+> Z	    1	     1 \n
+
+___
+
+@section partida_letras Partida_letras
+Este programa comprobará el funcionamiento de nuestro TDA Solver, vamos a implementar un programa que recibirá cuatro argumentos:
+   1. Ruta al archivo que contiene el diccionario
+   2. Ruta al archivo que contiene las letras y su puntuación
+   3. Modo de juego (L = longitud, P = puntuación)
+   4. Cantidad de letras para la partida
+Una vez construidos los TDAs
+necesarios, extraerá las letras con las que se jugará la partida, utilizará el Solver para buscar las
+soluciones, e imprimirá por pantalla tanto las letras para la partida como las mejores soluciones que
+se pueden obtener con dichas letras y la puntuación de dichas soluciones.
+
+> __partida_letras__ \<pathname1\> \<pathname2\> \<modo\> \<num_letras\>
+@param <pathname1> Ruta del archivo con la información del Dictionary
+@param <pathname2> Ruta del archivo con la información del LettersSet
+@param <pathname1> Modo de juego(L = longitud, P = puntuación)
+@param <pathname1> Cantidad de letras para la partida
+
+__Ejemplo de ejecución:__
+> ./build/partida_letras diccionario.txt letras.txt L 9
+>
+@b Salida:
+> LETRAS DISPONIBLES: \n
+> P	O	N	E	E	U	O	T	F	 \n
+> SOLUCIONES: \n
+> fuente \n
+> nepote \n
+> puente \n
+> punteo\n
+> PUNTUACION: \n
+> 6 \n
+
+___
+
+@section palabras_validas_diccionario Palabras_validas_diccionario
+Este programa nos permitirá comprobar el funcionamiento correcto del iterador de palabras válidas.
+Funcionamiento:
+Se carga el contenido del archivo que se pasa como argumento en un diccionario con
+estructura de árbol.
+El resto de argumentos que se pasan en la llamada al programa son las letras disponibles
+que se utilizan para formar palabras.
+
+> __palabras_validas_diccionario__ \<pathname\> \<e1\> ... \<eN\>
+@param <pathname> Ruta del archivo con la información del Dictionary
+@param <eI> Letras disponibles que se utilizan para formar palabras
+
+__Ejemplo de ejecución:__
+> ./build/palabras_validas_diccionario diccionario.txt 8
+>
+@b Salida:
+
+
+___
+
+@section palabras_letras_eficiente Palabras_letras_eficiente
+Este programa nos permitirá probar el funcionamiento de nuestro TDA, vamos a implementar un programa que recibirá cuatro argumentos:
+    5. Ruta al archivo que contiene las letras y su puntuación
+    6. Ruta al archivo que contiene el diccionario
+    7. Modo de juego (L = longitud, P = puntuación)
+    8. Cantidad de letras para la partida
+Una vez construidos los TDAs
+necesarios, extraerá las letras con las que se jugará la partida, utilizará el Solver para buscar las
+soluciones, e imprimirá por pantalla tanto las letras para la partida como las mejores soluciones que
+se pueden obtener con dichas letras y la puntuación de dichas soluciones.
+
+> __partida_letras_eficiente__ \<pathname1\> \<pathname2\> \<modo\> \<num_letras\>
+@param <pathname1> Ruta del archivo con la información del Dictionary
+@param <pathname2> Ruta del archivo con la información del LettersSet
+@param <pathname1> Modo de juego(L = longitud, P = puntuación)
+@param <pathname1> Cantidad de letras para la partida
+
+__Ejemplo de ejecución:__
+> ./build/partida_letras_eficiente diccionario.txt letras.txt L 9
+>
+@b Salida:
+> LETRAS DISPONIBLES: \n
+> P	O	N	E	E	U	O	T	F	 \n
+> SOLUCIONES: \n
+> fuente \n
+> nepote \n
+> puente \n
+> punteo\n
+> PUNTUACION: \n
+> 6 \n
+
+*/

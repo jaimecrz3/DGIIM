@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "algoritmo_dyv",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dyv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dyv-Debug-660e863f71a354435b6d.json",
+					"name" : "dyv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dyv_con_umbral::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dyv_con_umbral-Debug-a6dfe3534a1d2514fa9b.json",
+					"name" : "dyv_con_umbral",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dyv_sin_umbral::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dyv_sin_umbral-Debug-5a79673e224c2afda14b.json",
+					"name" : "dyv_sin_umbral",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "especifico::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-especifico-Debug-3ff09497fa18abed0e75.json",
+					"name" : "especifico",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generador::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generador-Debug-1137b5d8f55d9a7084df.json",
+					"name" : "generador",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jaime/Documentos/Universidad/Curso 2\u00ba/Algor\u00edtmica/practica2_dyv/algoritmo_dyv/cmake-build-debug",
+		"source" : "/home/jaime/Documentos/Universidad/Curso 2\u00ba/Algor\u00edtmica/practica2_dyv/algoritmo_dyv"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

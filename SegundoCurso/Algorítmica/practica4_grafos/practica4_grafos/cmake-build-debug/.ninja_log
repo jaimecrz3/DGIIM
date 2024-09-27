@@ -1,0 +1,12 @@
+# ninja log v5
+564	608	1682947829163564341	practica4_grafos	d5ff0ebf6665e4ea
+1	1433	1683842269560509325	CMakeFiles/branchandbound.dir/branchandbound.cpp.o	78abd9d7429be3a
+1433	1523	1683842269648517976	branchandbound	b9a8dc79e2cd1a6f
+0	9	1683653790272125020	CMakeFiles/prueba_backtracking.dir/prueba_backtracking.cpp.o	599be8a66813b6f6
+0	13	1683966437807697333	build.ninja	845353536d82d320
+1	736	1683750007642453442	CMakeFiles/backtracking.dir/backtracking.cpp.o	c5c01126277d16fd
+736	781	1683750007686402142	backtracking	6ac1542b4fd0299c
+0	1110	1683654030194137157	CMakeFiles/main.dir/main.cpp.o	c4ecd54d3b555b46
+1110	1170	1683654030254141424	main	15103f2815f9356a
+1	599	1683966442641351158	CMakeFiles/branchandbound.dir/branchandbound.cpp.o	78abd9d7429be3a
+599	642	1683966442681364850	branchandbound	b9a8dc79e2cd1a6f

@@ -1,0 +1,5 @@
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/CMakeFiles/backtracking.dir
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/CMakeFiles/branchandbound.dir
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/CMakeFiles/generador.dir
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica4/practica4_grafos/practica4_grafos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/CMakeFiles/pvc1.dir
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/CMakeFiles/generador-pvc.dir
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/CMakeFiles/pvc2.dir
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/CMakeFiles/pvc3.dir
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/CMakeFiles/algoritmo_catering.dir
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/CMakeFiles/generador.dir
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/CMakeFiles/rebuild_cache.dir

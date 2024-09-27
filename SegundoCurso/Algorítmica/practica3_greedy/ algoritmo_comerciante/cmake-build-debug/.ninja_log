@@ -1,0 +1,8 @@
+# ninja log v5
+1340	1540	1681766009938372699	_algoritmo_comerciante	5a1f77d3f84f0f13
+924	989	1682007770072814246	generador	b0f3bbf967b6c510
+964	1041	1682009861007006959	prim	ffa14d3c27ef8a66
+0	493	1682440267786306363	CMakeFiles/generador.dir/home/jaime/Documentos/Universidad/Curso_2º/Algorítmica/practica3_greedy/algoritmo_catering/generador.cpp.o	2a8d802cb5f274ab
+493	540	1682440267834306706	generador	46bdc13464b4afe1
+0	561	1682440288078451406	CMakeFiles/algoritmo_catering.dir/home/jaime/Documentos/Universidad/Curso_2º/Algorítmica/practica3_greedy/algoritmo_catering/algoritmo_catering.cpp.o	873bffaa37ff065
+562	612	1682440288126451749	algoritmo_catering	87267d1a9f376ff1

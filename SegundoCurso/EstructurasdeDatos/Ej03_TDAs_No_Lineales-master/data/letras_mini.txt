@@ -1,0 +1,6 @@
+Letra Cantidad Puntos
+A	2	1
+E	2	1
+I	2	1
+O	2	1
+U	2	1

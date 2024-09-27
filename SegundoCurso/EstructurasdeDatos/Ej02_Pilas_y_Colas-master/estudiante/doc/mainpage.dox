@@ -1,0 +1,66 @@
+/*! \mainpage Título de la página principal
+
+# Introducción
+En esta práctica veremos representado dos tipos diferentes de contenedores: una pila con máximo (MaxStack) y
+una cola con máximo (MaxQueue).
+
+Para su implementación, se ha usado el tipo de contenedor "contrario", es decir, para representar MaxStack (pila) se
+ha usado internamente una cola mientras que para representar MaxQueue (cola), una pila.
+
+___
+
+# Contenidos:
+
+- Clases:
+    - @ref MaxStack
+    - @ref MaxQueue
+- @ref exe
+    - @ref pila_max
+    - @ref cola_max
+
+@page exe Ejecutables
+@brief Definición y ejemplos de uso de los ejecutables
+
+@section pila_max Pila_max
+@image html maxstack.png
+
+Este programa permite el uso de una pila con máximo. Al llamar al programa podremos pasar como argumentos los números
+a introducir en la pila, usando el caracter `"."` para imprimir por pantalla el elemento que se encuentra en ese momento
+en el tope de la misma.
+
+> __pila_max__ \<num\> \<\.\>
+@param <num> Numero a añadir a la pila
+@param <.> Imprime por pantalla el número y el máximo actual del tope de la pila y elimina dicho elemento
+
+Ejemplo de ejecución:
+> ./build/pila_max 1 2 . 3 4 . . .
+>
+@b Salida:
+> 2,2 \n
+> 3,4 \n
+> 4,4 \n
+> 1,1 \n
+
+\n
+___
+
+@section cola_max Cola_max
+@image html maxqueue.png
+
+Este programa permite el uso de una cola con máximo. Al llamar al programa podremos pasar como argumentos los números
+a introducir en la cola, usando el caracter `"."` para imprimir por pantalla el elemento que se encuentra en ese momento
+en el frente de la misma.
+
+> __cola_max__ \<num\> \<\.\>
+@param <num> Numero a añadir a la cola
+@param <.> Imprime por pantalla el número y el máximo actual del frente de la cola y elimina dicho elemento
+
+Ejemplo de ejecución:
+> ./build/cola_max 1 4 . 2 3 . . .
+@b Salida:
+> 1,4 \n
+> 4,4 \n
+> 2,3 \n
+> 3,3 \n
+
+*/

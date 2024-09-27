@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="_algoritmo_comerciante"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pvc1">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/pvc1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 pvc1"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pvc1/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/pvc1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 pvc1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generador-pvc">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/generador-pvc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 generador-pvc"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generador-pvc/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/generador-pvc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 generador-pvc/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pvc2">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/pvc2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 pvc2"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pvc2/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/pvc2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 pvc2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pvc3">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/pvc3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 pvc3"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pvc3/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/pvc3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 pvc3/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algoritmo_catering">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/algoritmo_catering" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 algoritmo_catering"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algoritmo_catering/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/algoritmo_catering" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 algoritmo_catering/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generador">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/generador" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 generador"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generador/fast">
+				<Option output="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug/generador" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 generador/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/\ algoritmo_comerciante/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/generador-pvc.cpp">
+			<Option target="generador-pvc"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/pvc1.cpp">
+			<Option target="pvc1"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/pvc2.cpp">
+			<Option target="pvc2"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/pvc3.cpp">
+			<Option target="pvc3"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/algoritmo_catering/algoritmo_catering.cpp">
+			<Option target="algoritmo_catering"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/algoritmo_catering/generador.cpp">
+			<Option target="generador"/>
+		</Unit>
+		<Unit filename="/home/marta26/UNI/SEGUNDO/ALGORÍTIMICA/practica3/practica3_greedy/ algoritmo_comerciante/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,134 @@
+/*! \mainpage Título de la página principal
+
+# Introducción
+En esta práctica, nos centraremos en el juego conocido como cifras y letras,en concreto en la prueba de las letras.
+Consiste en formar la mejor palabra posible a partir de un conjunto de letras extraídas al azar de una bolsa dos
+modalidades de juego:
+    - Juego a longitud: Se tiene en cuenta sólo la longitud de las palabras, y gana la palabra más larga encontrada
+    - Juego a puntos: A cada letra se le asigna una puntuación, y la puntuación de la palabra será igual a la suma de
+      las puntuaciones de las letras que la componen
+
+Para crear este juego, en esta práctica crearemos las diferentes estructuras y métodos correspondientes para dar vida a
+este juego:
+
+___
+
+# Contenidos:
+
+- Clases:
+    - LettersSet
+    - Bag
+    - LettersBag
+    - Dictionary
+- @ref exe
+    - @ref conjunto_letras
+    - @ref bolsa
+    - @ref bolsa_letras
+    - @ref palabras_longitud
+    - @ref cantidad_letras
+
+@page exe Ejecutables
+@brief Definición y ejemplos de uso de los ejecutables
+
+@section conjunto_letras Conjunto_letras
+Este programa permite calcular la puntuación de una palabra dada a partir de la información extraida del fichero de
+entrada
+
+> __conjunto_letras__ \<pathname\> \<word\>
+@param <pathname> Ruta del archivo con la información de las letras
+@param <word> Palabra a calcular su puntuación
+@post La puntuación de una letra de la palabra no contenida en el fichero de información será de 0
+
+__Ejemplo de ejecución:__
+> ./build/conjunto_letras letras.txt ejemplo
+>
+@b Salida:
+> 18
+
+@image html conjunto_letras.png
+\n
+___
+@section bolsa Bolsa
+Este programa permitirá comprobar el funcionamiento de la clase Bag usándola para crear una bolsa de caracteres (char) o
+de enteros (int) añadiendole n elementos para después ser extraídos aleatoriamente hasta que la bolsa quede vacía.
+
+El único propósito de este ejecutable es comprobar la correcta funcionalidad de la clase bolsa. En la práctica, podremos
+crear una bolsa de cualquier tipo de datos. `I`
+
+> __bolsa__ <C|I> <e1> <e2> ... <en>
+@param <C|I> Especificaremos C si la bolsa creada es una bolsa de caracteres ó I si la bolsa es de enteros
+@param <ei> Elementos a introducir en la bolsa
+
+__Ejemplo de ejecución:__
+> ./build/bolsa C s u s p e n s o
+>
+@b Salida:
+> s \n o \n e \n n \n s \n u \n s \n p
+
+@image html bolsa.png
+___
+
+@section bolsa_letras Bolsa_letras
+Este programa implementará una bolsa de letras. Los datos con los que se construirá esta bolsa se leerán de un fichero
+con el formato para crear un LetterSet (Letra - Cantidad - Puntos). Por último, se imprimirá por pantalla de forma
+aleatoria el contenido de la bolsa creada.
+
+> __bolsa_letras__ <pathname>
+@param <pathname> Ruta del archivo con la información de las letras
+
+__Ejemplo de ejecución:__
+> ./build/bolsa_letras letras_mini.txt
+>
+@b Salida:
+> O \n U \n I \n A \n E \n A \n U \n I \n E \n O
+
+@image html bolsa_letras.png
+___
+
+@section palabras_longitud Palabras_longitud
+Este programa nos permitirá encontrar y mostrar por pantalla las palabras de longitud n (siendo n un parámetro) de un
+fichero diccionario dado.
+
+> __palabras_longitud__ <pathname> <n>
+@param <pathname> Ruta del fichero con las palabras de un diccionario
+@param <n> Longitud de las palabras que buscamos
+
+__Ejemplo de ejecución:__
+> ./build/palabras_longitud diccionario.txt 8
+>
+@b Salida:
+> Palabras de longitud 8: \n
+> corregir \n
+> suspense \n
+> suspenso
+
+@image html diccionario.png
+
+___
+
+@section cantidad_letras Cantidad_letras
+Este programa nos permitirá imprimir por pantalla para cada letra de un fichero con formato LetterSet el número de
+ocurrencias en un diccionario dado, así como su frecuencia relativa
+
+> __cantidad_letras__ <dictionary_path> <letters_path>
+@param <dictionary_path> Ruta del fichero con las palabras de un diccionario
+@param <letters_path> Ruta del fichero con las letras a buscar
+
+__Ejemplo de ejecución:__
+> ./build/cantidad_letras diccionario.txt letras_mini.txt
+
+@b Salida:
+
+```
+Letra	FAbs.	Frel.
+A	    2	    0.0210526
+E	    14	    0.147368
+I	    6	    0.0631579
+O	    8	    0.0842105
+U	    8	    0.0842105
+```
+@image html letras_mini_&_diccionario.png
+
+ESTA VA PAL JAIME <3
+
+*/

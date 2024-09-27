@@ -1,0 +1,7 @@
+/home/jaime/Documentos/Universidad/Curso 2º/Algorítmica/practica2_dyv/algoritmo_dyv/cmake-build-debug/CMakeFiles/dyv.dir
+/home/jaime/Documentos/Universidad/Curso 2º/Algorítmica/practica2_dyv/algoritmo_dyv/cmake-build-debug/CMakeFiles/especifico.dir
+/home/jaime/Documentos/Universidad/Curso 2º/Algorítmica/practica2_dyv/algoritmo_dyv/cmake-build-debug/CMakeFiles/dyv_sin_umbral.dir
+/home/jaime/Documentos/Universidad/Curso 2º/Algorítmica/practica2_dyv/algoritmo_dyv/cmake-build-debug/CMakeFiles/dyv_con_umbral.dir
+/home/jaime/Documentos/Universidad/Curso 2º/Algorítmica/practica2_dyv/algoritmo_dyv/cmake-build-debug/CMakeFiles/generador.dir
+/home/jaime/Documentos/Universidad/Curso 2º/Algorítmica/practica2_dyv/algoritmo_dyv/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jaime/Documentos/Universidad/Curso 2º/Algorítmica/practica2_dyv/algoritmo_dyv/cmake-build-debug/CMakeFiles/rebuild_cache.dir

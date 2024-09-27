@@ -1,0 +1,309 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"CMakePresetLoader\">{\n  &quot;useNewFormat&quot;: true\n}</component>\n  <component name=\"CMakeReloadState\">\n    <option name=\"reloaded\" value=\"true\" />\n  </component>\n  <component name=\"CMakeRunConfigurationManager\">\n    <generated>\n      <config projectName=\"practica2\" targetName=\"negativo\" />\n      <config projectName=\"practica2\" targetName=\"contraste\" />\n      <config projectName=\"practica2\" targetName=\"image\" />\n      <config projectName=\"practica2\" targetName=\"barajar\" />\n      <config projectName=\"practica2\" targetName=\"subimagen\" />\n      <config projectName=\"practica2\" targetName=\"doc_doxygen\" />\n      <config projectName=\"practica2\" targetName=\"zoom\" />\n      <config projectName=\"practica2\" targetName=\"icono\" />\n    </generated>\n  </component>\n  <component name=\"CMakeSettings\">\n    <configurations>\n      <configuration PROFILE_NAME=\"Debug\" ENABLED=\"true\" CONFIG_NAME=\"Debug\" />\n    </configurations>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"ddda1e98-f1f0-4c14-ba80-7a918cf8df79\" name=\"Changes\" comment=\"prueba_\">\n      <change afterPath=\"$PROJECT_DIR$/estudiante/src/barajar.cpp\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/estudiante/include/image.h\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/estudiante/include/image.h\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/juez.sh\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/juez.sh\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ClangdSettings\">\n    <option name=\"formatViaClangd\" value=\"false\" />\n  </component>\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"CMakeBuildProfile:Debug\" />\n  <component name=\"Git.Settings\">\n    <branch-grouping />\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\n  </component>\n  <component name=\"ProjectApplicationVersion\">\n    <option name=\"ide\" value=\"CLion\" />\n    <option name=\"majorVersion\" value=\"2022\" />\n    <option name=\"minorVersion\" value=\"2.3\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2FcLb4G6T87UH3BlxB1JIxSdti6\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"cf.first.check.clang-format\": \"false\",\n    \"cidr.known.project.marker\": \"true\",\n    \"last_opened_file_path\": \"/home/jaime/Documentos/ED/CLionProjects/Ej01_Imagenes\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"settings.editor.selected.configurable\": \"project.propVCSSupport.DirectoryMappings\",\n    \"structure.view.defaults.are.configured\": \"true\"\n  }\n}]]></component>\n  <component name=\"RunManager\" selected=\"Shell Script.juez.sh\">\n    <configuration default=\"true\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"barajar\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" PROGRAM_PARAMS=\"shuffle_9973.pgm barajar_pub.pgm\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" WORKING_DIR=\"file://$PROJECT_DIR$/../../ej01_imagenes/img\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"practica2\" TARGET_NAME=\"barajar\" CONFIG_NAME=\"Debug\" RUN_TARGET_PROJECT_NAME=\"practica2\" RUN_TARGET_NAME=\"barajar\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"contraste\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" PROGRAM_PARAMS=\"vacas.pgm contraste_pub.pgm 64 192 32 224\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" WORKING_DIR=\"file://$PROJECT_DIR$/../../ej01_imagenes/img\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"practica2\" TARGET_NAME=\"contraste\" CONFIG_NAME=\"Debug\" RUN_TARGET_PROJECT_NAME=\"practica2\" RUN_TARGET_NAME=\"contraste\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"doc_doxygen\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"practica2\" TARGET_NAME=\"doc_doxygen\" CONFIG_NAME=\"Debug\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"icono\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" PROGRAM_PARAMS=\"vacas.pgm icono_pub.pgm 2\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" WORKING_DIR=\"file://$PROJECT_DIR$/../../ej01_imagenes/img\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"practica2\" TARGET_NAME=\"icono\" CONFIG_NAME=\"Debug\" RUN_TARGET_PROJECT_NAME=\"practica2\" RUN_TARGET_NAME=\"icono\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"image\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"practica2\" TARGET_NAME=\"image\" CONFIG_NAME=\"Debug\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"negativo\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"practica2\" TARGET_NAME=\"negativo\" CONFIG_NAME=\"Debug\" RUN_TARGET_PROJECT_NAME=\"practica2\" RUN_TARGET_NAME=\"negativo\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"subimagen\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" PROGRAM_PARAMS=\"vacas.pgm cabeza.pgm 85 145 60 80\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" WORKING_DIR=\"file://$PROJECT_DIR$/img\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"practica2\" TARGET_NAME=\"subimagen\" CONFIG_NAME=\"Debug\" RUN_TARGET_PROJECT_NAME=\"practica2\" RUN_TARGET_NAME=\"subimagen\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"zoom\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" PROGRAM_PARAMS=\"vacas.pgm zoom_pub.pgm 85 145 60 \" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" WORKING_DIR=\"file://$PROJECT_DIR$/../../ej01_imagenes/img\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"practica2\" TARGET_NAME=\"zoom\" CONFIG_NAME=\"Debug\" RUN_TARGET_PROJECT_NAME=\"practica2\" RUN_TARGET_NAME=\"zoom\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"juez.sh\" type=\"ShConfigurationType\">\n      <option name=\"SCRIPT_TEXT\" value=\"\" />\n      <option name=\"INDEPENDENT_SCRIPT_PATH\" value=\"true\" />\n      <option name=\"SCRIPT_PATH\" value=\"$PROJECT_DIR$/juez.sh\" />\n      <option name=\"SCRIPT_OPTIONS\" value=\"\" />\n      <option name=\"INDEPENDENT_SCRIPT_WORKING_DIRECTORY\" value=\"true\" />\n      <option name=\"SCRIPT_WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"INDEPENDENT_INTERPRETER_PATH\" value=\"true\" />\n      <option name=\"INTERPRETER_PATH\" value=\"/bin/bash\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"EXECUTE_IN_TERMINAL\" value=\"true\" />\n      <option name=\"EXECUTE_SCRIPT_FILE\" value=\"true\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n    <list>\n      <item itemvalue=\"CMake Application.barajar\" />\n      <item itemvalue=\"CMake Application.contraste\" />\n      <item itemvalue=\"CMake Application.doc_doxygen\" />\n      <item itemvalue=\"CMake Application.icono\" />\n      <item itemvalue=\"CMake Application.image\" />\n      <item itemvalue=\"CMake Application.negativo\" />\n      <item itemvalue=\"CMake Application.subimagen\" />\n      <item itemvalue=\"CMake Application.zoom\" />\n      <item itemvalue=\"Shell Script.juez.sh\" />\n    </list>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"ddda1e98-f1f0-4c14-ba80-7a918cf8df79\" name=\"Changes\" comment=\"\" />\n      <created>1664786497205</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1664786497205</updated>\n      <workItem from=\"1664786500789\" duration=\"2432000\" />\n      <workItem from=\"1664816729058\" duration=\"8515000\" />\n      <workItem from=\"1664873778740\" duration=\"875000\" />\n      <workItem from=\"1664994113835\" duration=\"2854000\" />\n      <workItem from=\"1665068780758\" duration=\"5527000\" />\n      <workItem from=\"1665152784149\" duration=\"1964000\" />\n      <workItem from=\"1665154761005\" duration=\"1313000\" />\n      <workItem from=\"1665156171819\" duration=\"1993000\" />\n      <workItem from=\"1665226253529\" duration=\"1000\" />\n      <workItem from=\"1665307908267\" duration=\"828000\" />\n      <workItem from=\"1665308770664\" duration=\"4472000\" />\n      <workItem from=\"1665414569380\" duration=\"1828000\" />\n      <workItem from=\"1665417105753\" duration=\"1361000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"prueba_\">\n      <created>1664873940074</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1664873940074</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"prueba_\">\n      <created>1665072855813</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665072855813</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"prueba_\">\n      <created>1665246624854</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665246624854</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"prueba_\">\n      <created>1665251523822</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665251523822</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"prueba_\">\n      <created>1665252137652</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665252137652</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"prueba_\">\n      <created>1665307962764</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665307962764</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"prueba_\">\n      <created>1665310909157</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665310909157</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"prueba_\">\n      <created>1665313095818</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665313095818</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"prueba_\">\n      <created>1665313116299</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665313116299</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"10\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\n                <map>\n                  <entry key=\"Show.Git.Branches\" value=\"true\" />\n                </map>\n              </option>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"master\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <ignored-roots>\n      <path value=\"$PROJECT_DIR$/../GIT\" />\n    </ignored-roots>\n    <MESSAGE value=\"prueba_\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"prueba_\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5f1941ff673d678d1574f7aa29df6374f7dd9f7a)
++++ b/.idea/workspace.xml	(date 1665679234064)
+@@ -24,11 +24,8 @@
+     </configurations>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="ddda1e98-f1f0-4c14-ba80-7a918cf8df79" name="Changes" comment="prueba_">
+-      <change afterPath="$PROJECT_DIR$/estudiante/src/barajar.cpp" afterDir="false" />
++    <list default="true" id="ddda1e98-f1f0-4c14-ba80-7a918cf8df79" name="Changes" comment="Añadidas precondiciones al método Contraste">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/estudiante/include/image.h" beforeDir="false" afterPath="$PROJECT_DIR$/estudiante/include/image.h" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/juez.sh" beforeDir="false" afterPath="$PROJECT_DIR$/juez.sh" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -45,9 +42,6 @@
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+-  </component>
+-  <component name="ProblemsViewState">
+-    <option name="selectedTabId" value="CurrentFile" />
+   </component>
+   <component name="ProjectApplicationVersion">
+     <option name="ide" value="CLion" />
+@@ -60,32 +54,27 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.cidr.known.project.marker": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "cf.first.check.clang-format": "false",
+-    "cidr.known.project.marker": "true",
+-    "last_opened_file_path": "/home/jaime/Documentos/ED/CLionProjects/Ej01_Imagenes",
+-    "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+-    "structure.view.defaults.are.configured": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
++    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/home/mario/Escritorio/ED/Projects/GIT&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
++    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;
+   }
+-}]]></component>
+-  <component name="RunManager" selected="Shell Script.juez.sh">
+-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+-      <method v="2">
+-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="barajar" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="shuffle_9973.pgm barajar_pub.pgm" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/../../ej01_imagenes/img" PASS_PARENT_ENVS_2="true" PROJECT_NAME="practica2" TARGET_NAME="barajar" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="practica2" RUN_TARGET_NAME="barajar">
++}</component>
++  <component name="RunManager" selected="CMake Application.contraste">
++    <configuration name="barajar" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="vacas.pgm out.pgm" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/img" PASS_PARENT_ENVS_2="true" PROJECT_NAME="practica2" TARGET_NAME="barajar" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="practica2" RUN_TARGET_NAME="barajar">
+       <method v="2">
+         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="contraste" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="vacas.pgm contraste_pub.pgm 64 192 32 224" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/../../ej01_imagenes/img" PASS_PARENT_ENVS_2="true" PROJECT_NAME="practica2" TARGET_NAME="contraste" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="practica2" RUN_TARGET_NAME="contraste">
++    <configuration name="contraste" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="vacas.pgm out.pgm 64 192 32 245" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/img" PASS_PARENT_ENVS_2="true" PROJECT_NAME="practica2" TARGET_NAME="contraste" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="practica2" RUN_TARGET_NAME="contraste">
+       <method v="2">
+         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+       </method>
+@@ -95,7 +84,7 @@
+         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="icono" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="vacas.pgm icono_pub.pgm 2" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/../../ej01_imagenes/img" PASS_PARENT_ENVS_2="true" PROJECT_NAME="practica2" TARGET_NAME="icono" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="practica2" RUN_TARGET_NAME="icono">
++    <configuration name="icono" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="vacas.pgm icono.pgm 2" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/img" PASS_PARENT_ENVS_2="true" PROJECT_NAME="practica2" TARGET_NAME="icono" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="practica2" RUN_TARGET_NAME="icono">
+       <method v="2">
+         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+       </method>
+@@ -105,17 +94,17 @@
+         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="negativo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="practica2" TARGET_NAME="negativo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="practica2" RUN_TARGET_NAME="negativo">
++    <configuration name="negativo" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="vacas.pgm out.pgm" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/img" PASS_PARENT_ENVS_2="true" PROJECT_NAME="practica2" TARGET_NAME="negativo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="practica2" RUN_TARGET_NAME="negativo">
+       <method v="2">
+         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="subimagen" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="vacas.pgm cabeza.pgm 85 145 60 80" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/img" PASS_PARENT_ENVS_2="true" PROJECT_NAME="practica2" TARGET_NAME="subimagen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="practica2" RUN_TARGET_NAME="subimagen">
++    <configuration name="subimagen" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="vacas.pgm cabeza.pgm 85 145 60 60" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/img" PASS_PARENT_ENVS_2="true" PROJECT_NAME="practica2" TARGET_NAME="subimagen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="practica2" RUN_TARGET_NAME="subimagen">
+       <method v="2">
+         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="zoom" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="vacas.pgm zoom_pub.pgm 85 145 60 " REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/../../ej01_imagenes/img" PASS_PARENT_ENVS_2="true" PROJECT_NAME="practica2" TARGET_NAME="zoom" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="practica2" RUN_TARGET_NAME="zoom">
++    <configuration name="zoom" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="./vacas.pgm Prueba_zoom.pgm 85 145 60" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/img" PASS_PARENT_ENVS_2="true" PROJECT_NAME="practica2" TARGET_NAME="zoom" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="practica2" RUN_TARGET_NAME="zoom">
+       <method v="2">
+         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+       </method>
+@@ -157,82 +146,130 @@
+       <updated>1664786497205</updated>
+       <workItem from="1664786500789" duration="2432000" />
+       <workItem from="1664816729058" duration="8515000" />
+-      <workItem from="1664873778740" duration="875000" />
+-      <workItem from="1664994113835" duration="2854000" />
+-      <workItem from="1665068780758" duration="5527000" />
+-      <workItem from="1665152784149" duration="1964000" />
+-      <workItem from="1665154761005" duration="1313000" />
+-      <workItem from="1665156171819" duration="1993000" />
+-      <workItem from="1665226253529" duration="1000" />
+-      <workItem from="1665307908267" duration="828000" />
+-      <workItem from="1665308770664" duration="4472000" />
+-      <workItem from="1665414569380" duration="1828000" />
+-      <workItem from="1665417105753" duration="1361000" />
++      <workItem from="1665101507178" duration="1000" />
++      <workItem from="1665439891742" duration="4479000" />
++      <workItem from="1665485196112" duration="2021000" />
+     </task>
+-    <task id="LOCAL-00001" summary="prueba_">
+-      <created>1664873940074</created>
++    <task id="LOCAL-00001" summary="Documentación de Crop y Zoom2x">
++      <created>1665084076093</created>
+       <option name="number" value="00001" />
+       <option name="presentableId" value="LOCAL-00001" />
+       <option name="project" value="LOCAL" />
+-      <updated>1664873940074</updated>
++      <updated>1665084076094</updated>
+     </task>
+-    <task id="LOCAL-00002" summary="prueba_">
+-      <created>1665072855813</created>
++    <task id="LOCAL-00002" summary="Documentación del programa Subimagen.cpp">
++      <created>1665084102862</created>
+       <option name="number" value="00002" />
+       <option name="presentableId" value="LOCAL-00002" />
+       <option name="project" value="LOCAL" />
+-      <updated>1665072855813</updated>
++      <updated>1665084102862</updated>
+     </task>
+-    <task id="LOCAL-00003" summary="prueba_">
+-      <created>1665246624854</created>
++    <task id="LOCAL-00003" summary="Método Zoom2X() terminado y funcional">
++      <created>1665101375962</created>
+       <option name="number" value="00003" />
+       <option name="presentableId" value="LOCAL-00003" />
+       <option name="project" value="LOCAL" />
+-      <updated>1665246624854</updated>
++      <updated>1665101375962</updated>
+     </task>
+-    <task id="LOCAL-00004" summary="prueba_">
+-      <created>1665251523822</created>
++    <task id="LOCAL-00004" summary="Método Crop corregido">
++      <created>1665229684767</created>
+       <option name="number" value="00004" />
+       <option name="presentableId" value="LOCAL-00004" />
+       <option name="project" value="LOCAL" />
+-      <updated>1665251523822</updated>
++      <updated>1665229684767</updated>
+     </task>
+-    <task id="LOCAL-00005" summary="prueba_">
+-      <created>1665252137652</created>
++    <task id="LOCAL-00005" summary="Añadido ambos datos para enviar al juez">
++      <created>1665229704326</created>
+       <option name="number" value="00005" />
+       <option name="presentableId" value="LOCAL-00005" />
+       <option name="project" value="LOCAL" />
+-      <updated>1665252137652</updated>
++      <updated>1665229704326</updated>
+     </task>
+-    <task id="LOCAL-00006" summary="prueba_">
+-      <created>1665307962764</created>
++    <task id="LOCAL-00006" summary="Initial commit">
++      <created>1665229714691</created>
+       <option name="number" value="00006" />
+       <option name="presentableId" value="LOCAL-00006" />
+       <option name="project" value="LOCAL" />
+-      <updated>1665307962764</updated>
++      <updated>1665229714691</updated>
+     </task>
+-    <task id="LOCAL-00007" summary="prueba_">
+-      <created>1665310909157</created>
++    <task id="LOCAL-00007" summary="Corregido error al subir archivos, tests Ok">
++      <created>1665338755506</created>
+       <option name="number" value="00007" />
+       <option name="presentableId" value="LOCAL-00007" />
+       <option name="project" value="LOCAL" />
+-      <updated>1665310909157</updated>
++      <updated>1665338755506</updated>
+     </task>
+-    <task id="LOCAL-00008" summary="prueba_">
+-      <created>1665313095818</created>
++    <task id="LOCAL-00008" summary="Modificado explicación de uso tras error de número de argumentos">
++      <created>1665343055196</created>
+       <option name="number" value="00008" />
+       <option name="presentableId" value="LOCAL-00008" />
+       <option name="project" value="LOCAL" />
+-      <updated>1665313095818</updated>
++      <updated>1665343055196</updated>
+     </task>
+-    <task id="LOCAL-00009" summary="prueba_">
+-      <created>1665313116299</created>
++    <task id="LOCAL-00009" summary="Documentación para todos los métodos menos para ShuffleRows">
++      <created>1665343103988</created>
+       <option name="number" value="00009" />
+       <option name="presentableId" value="LOCAL-00009" />
+       <option name="project" value="LOCAL" />
+-      <updated>1665313116299</updated>
++      <updated>1665343103988</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="Cambiado código para usar el método Invierte()">
++      <created>1665343120755</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1665343120755</updated>
++    </task>
++    <task id="LOCAL-00011" summary="Copiado código anterior">
++      <created>1665343156445</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1665343156445</updated>
++    </task>
++    <task id="LOCAL-00012" summary="Documentación de los ejecutables Zoom e Icono">
++      <created>1665347372716</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1665347372716</updated>
++    </task>
++    <task id="LOCAL-00013" summary="Imágenes corregidas">
++      <created>1665444930046</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1665444930046</updated>
++    </task>
++    <task id="LOCAL-00014" summary="Documentación de barajar añadida; Creada página aparte para los ejecutables">
++      <created>1665444967250</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1665444967250</updated>
++    </task>
++    <task id="LOCAL-00015" summary="Corregida ayuda al usuario en caso de parámetros incorrectos">
++      <created>1665445013528</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1665445013528</updated>
++    </task>
++    <task id="LOCAL-00016" summary="Documentación creada en páginas distintas">
++      <created>1665445199218</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1665445199218</updated>
++    </task>
++    <task id="LOCAL-00017" summary="Añadidas precondiciones al método Contraste">
++      <created>1665486498790</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
++      <option name="project" value="LOCAL" />
++      <updated>1665486498790</updated>
++    </task>
++    <option name="localTasksCounter" value="18" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -270,7 +307,23 @@
+     <ignored-roots>
+       <path value="$PROJECT_DIR$/../GIT" />
+     </ignored-roots>
+-    <MESSAGE value="prueba_" />
+-    <option name="LAST_COMMIT_MESSAGE" value="prueba_" />
++    <MESSAGE value="Documentación de Crop y Zoom2x" />
++    <MESSAGE value="Documentación del programa Subimagen.cpp" />
++    <MESSAGE value="Método Zoom2X() terminado y funcional" />
++    <MESSAGE value="Método Crop corregido" />
++    <MESSAGE value="Añadido ambos datos para enviar al juez" />
++    <MESSAGE value="Initial commit" />
++    <MESSAGE value="Corregido error al subir archivos, tests Ok" />
++    <MESSAGE value="Modificado explicación de uso tras error de número de argumentos" />
++    <MESSAGE value="Documentación para todos los métodos menos para ShuffleRows" />
++    <MESSAGE value="Cambiado código para usar el método Invierte()" />
++    <MESSAGE value="Copiado código anterior" />
++    <MESSAGE value="Documentación de los ejecutables Zoom e Icono" />
++    <MESSAGE value="Imágenes corregidas" />
++    <MESSAGE value="Documentación de barajar añadida; Creada página aparte para los ejecutables" />
++    <MESSAGE value="Corregida ayuda al usuario en caso de parámetros incorrectos" />
++    <MESSAGE value="Documentación creada en páginas distintas" />
++    <MESSAGE value="Añadidas precondiciones al método Contraste" />
++    <option name="LAST_COMMIT_MESSAGE" value="Añadidas precondiciones al método Contraste" />
+   </component>
+ </project>
+\ No newline at end of file

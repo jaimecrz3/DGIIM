@@ -1,0 +1,12 @@
+all: practica
+
+practica: Generador/generador bt/bracktracking  bb/branchandbound
+
+generador.exe: Generador/generador.cpp ./Generador/generador.cpp
+	g++ -O2 Generador/generador.cpp -o Generador/generador
+
+backtracking.exe: bt/backtracking.cpp ./bt/backtracking.cpp
+	g++ -O2 bt/backtracking.cpp -o bt/bracktracking
+
+byb.exe: bb/branchandbound.cpp ./bb/branchandbound.cpp
+	g++ -O2 bb/branchandbound.cpp -o bb/branchandbound
