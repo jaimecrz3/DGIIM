@@ -16,7 +16,7 @@ ResultMH RandomSearch::optimize(Problem *problem, int maxevals) {
   tSolution best;
   tFitness best_fitness = -1;
 
-  for (int i = 0; i < maxevals; i++) {    //¿NO HAY QUE GENERAR 100000 SOLUCIONES? EN EL MAIN SE PASA maxevals=100
+  for (int i = 0; i < maxevals; i++) {    
     tSolution solution = problem->createSolution();
     tFitness fitness = problem->fitness(solution);
 

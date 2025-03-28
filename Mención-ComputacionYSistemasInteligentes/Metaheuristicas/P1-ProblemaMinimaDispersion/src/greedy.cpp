@@ -91,28 +91,5 @@ ResultMH GreedySearch::optimize(Problem *problem, int maxevals) {
   }
 
   return ResultMH(sol, realproblem->fitness(sol), 1);
-
-  // for (int r = 0; r < size / 2; r++) {
-  //   vector<float> heuristics;
-
-  //   //Se calcula un heurístico para cada opción disponible.
-  //   //Si option es impar, el heurístico es sol.size() - option.
-  //   //Si option es par, el heurístico es sol.size().
-  //   for (auto option : values) {
-  //     tHeuristic value = ((option % 2) == 1 ? sol.size() - option : sol.size());
-  //     heuristics.push_back(value);
-  //   }
-  //   // print_vector("heuristics", heuristics);
-
-  //   auto posi = min_element(heuristics.begin(), heuristics.end());
-  //   int posi_int = posi - heuristics.begin();
-
-  //   sol[values[posi_int]] = 1;
-  //   values[posi_int] = values.back();
-  //   values.pop_back();
-  // }
-
-  // tFitness fitness = problem->fitness(sol);
-  // return ResultMH(sol, fitness, 1);
 }
 

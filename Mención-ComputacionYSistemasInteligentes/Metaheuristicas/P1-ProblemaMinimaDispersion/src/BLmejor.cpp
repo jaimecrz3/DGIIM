@@ -63,7 +63,7 @@ ResultMH BusquedaLocalPM::optimize(Problem *problem, const int maxevals) {
     for(int i=0; i<aux.size(); i++){
         aux[i] = i;
     }
-    Random::shuffle(aux);       //DUDA
+    Random::shuffle(aux);       
 
     for(int i=0; i<realproblem->getProblemSize();i++){
         if(i<realproblem->getSolutionSize()){
@@ -93,12 +93,6 @@ ResultMH BusquedaLocalPM::optimize(Problem *problem, const int maxevals) {
 
         mejora = false;
 
-    
-
-        //Exploramos los movimientos en orden de contribucion             //¿COMO DISTINGO ENTRE SI HAY QUE APLICAR HEURISTICA O NO?
-        //¿LA HEURISTICA ES APLICAR LO DE EXPLORAR EL VENCIDARIO EN FORMA INTELIGENTE?
-
-
         //Con el fitness factorizado, vamosa encontrar el mejor movimiento posible, si existiese alguno
         //que mejora la solucion actual, si no, estamos en un optimo local, 
         //Algoritmo de búsqueda local del primer mejor: en cuanto se genera una
@@ -126,19 +120,15 @@ ResultMH BusquedaLocalPM::optimize(Problem *problem, const int maxevals) {
 
         }
 
-        //cout << realproblem->fitness(seleccionados) << endl;
-
         
         if(mejora){
             evaluaciones++;
             mejor_fitness = mejor_fitness_aux;
             tDomain elem_out = seleccionados[pos_out];
             tDomain elem_in = no_seleccionados[pos_in];
-            //cout << "a: " << seleccionados << endl;
             realproblem->updateSolutionFactoringInfo(info, seleccionados, pos_out, elem_in);
             seleccionados[pos_out] = elem_in;
             no_seleccionados[pos_in] = elem_out;
-            //cout << "b: " << seleccionados << endl;
         
         }
 

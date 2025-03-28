@@ -42,7 +42,6 @@ ResultMH BusquedaLocalMejor::optimize(Problem *problem, const int maxevals) {
 
         //Creamos matriz con todas las posiblidades de intercambio
         //
-        //EN CADA EVALUACION TENGO QUE VOLVER A CREAR LA MATRIZ DE POSIBLIDADES???
         vector<vector<pair<int, int>>> posibilidades;
         for(int i=0; i<seleccionados.size(); i++){
             vector<pair<int, int>> aux;
