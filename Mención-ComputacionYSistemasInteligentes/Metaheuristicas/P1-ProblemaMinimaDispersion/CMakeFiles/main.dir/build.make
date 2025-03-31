@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh
+CMAKE_SOURCE_DIR = /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh
+CMAKE_BINARY_DIR = /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -72,100 +72,100 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: main.cpp
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
 CMakeFiles/main.dir/src/BLmejor.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/BLmejor.cpp.o: src/BLmejor.cpp
 CMakeFiles/main.dir/src/BLmejor.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/BLmejor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/BLmejor.cpp.o -MF CMakeFiles/main.dir/src/BLmejor.cpp.o.d -o CMakeFiles/main.dir/src/BLmejor.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/BLmejor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/BLmejor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/BLmejor.cpp.o -MF CMakeFiles/main.dir/src/BLmejor.cpp.o.d -o CMakeFiles/main.dir/src/BLmejor.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLmejor.cpp
 
 CMakeFiles/main.dir/src/BLmejor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/BLmejor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/BLmejor.cpp > CMakeFiles/main.dir/src/BLmejor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLmejor.cpp > CMakeFiles/main.dir/src/BLmejor.cpp.i
 
 CMakeFiles/main.dir/src/BLmejor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/BLmejor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/BLmejor.cpp -o CMakeFiles/main.dir/src/BLmejor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLmejor.cpp -o CMakeFiles/main.dir/src/BLmejor.cpp.s
 
 CMakeFiles/main.dir/src/BLpm.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/BLpm.cpp.o: src/BLpm.cpp
 CMakeFiles/main.dir/src/BLpm.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/BLpm.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/BLpm.cpp.o -MF CMakeFiles/main.dir/src/BLpm.cpp.o.d -o CMakeFiles/main.dir/src/BLpm.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/BLpm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/BLpm.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/BLpm.cpp.o -MF CMakeFiles/main.dir/src/BLpm.cpp.o.d -o CMakeFiles/main.dir/src/BLpm.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLpm.cpp
 
 CMakeFiles/main.dir/src/BLpm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/BLpm.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/BLpm.cpp > CMakeFiles/main.dir/src/BLpm.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLpm.cpp > CMakeFiles/main.dir/src/BLpm.cpp.i
 
 CMakeFiles/main.dir/src/BLpm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/BLpm.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/BLpm.cpp -o CMakeFiles/main.dir/src/BLpm.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLpm.cpp -o CMakeFiles/main.dir/src/BLpm.cpp.s
 
 CMakeFiles/main.dir/src/brutesearch.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/brutesearch.cpp.o: src/brutesearch.cpp
 CMakeFiles/main.dir/src/brutesearch.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/brutesearch.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/brutesearch.cpp.o -MF CMakeFiles/main.dir/src/brutesearch.cpp.o.d -o CMakeFiles/main.dir/src/brutesearch.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/brutesearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/brutesearch.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/brutesearch.cpp.o -MF CMakeFiles/main.dir/src/brutesearch.cpp.o.d -o CMakeFiles/main.dir/src/brutesearch.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/brutesearch.cpp
 
 CMakeFiles/main.dir/src/brutesearch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/brutesearch.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/brutesearch.cpp > CMakeFiles/main.dir/src/brutesearch.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/brutesearch.cpp > CMakeFiles/main.dir/src/brutesearch.cpp.i
 
 CMakeFiles/main.dir/src/brutesearch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/brutesearch.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/brutesearch.cpp -o CMakeFiles/main.dir/src/brutesearch.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/brutesearch.cpp -o CMakeFiles/main.dir/src/brutesearch.cpp.s
 
 CMakeFiles/main.dir/src/greedy.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/greedy.cpp.o: src/greedy.cpp
 CMakeFiles/main.dir/src/greedy.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/greedy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/greedy.cpp.o -MF CMakeFiles/main.dir/src/greedy.cpp.o.d -o CMakeFiles/main.dir/src/greedy.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/greedy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/greedy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/greedy.cpp.o -MF CMakeFiles/main.dir/src/greedy.cpp.o.d -o CMakeFiles/main.dir/src/greedy.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/greedy.cpp
 
 CMakeFiles/main.dir/src/greedy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/greedy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/greedy.cpp > CMakeFiles/main.dir/src/greedy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/greedy.cpp > CMakeFiles/main.dir/src/greedy.cpp.i
 
 CMakeFiles/main.dir/src/greedy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/greedy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/greedy.cpp -o CMakeFiles/main.dir/src/greedy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/greedy.cpp -o CMakeFiles/main.dir/src/greedy.cpp.s
 
 CMakeFiles/main.dir/src/mddp.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/mddp.cpp.o: src/mddp.cpp
 CMakeFiles/main.dir/src/mddp.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/mddp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/mddp.cpp.o -MF CMakeFiles/main.dir/src/mddp.cpp.o.d -o CMakeFiles/main.dir/src/mddp.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/mddp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/mddp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/mddp.cpp.o -MF CMakeFiles/main.dir/src/mddp.cpp.o.d -o CMakeFiles/main.dir/src/mddp.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/mddp.cpp
 
 CMakeFiles/main.dir/src/mddp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/mddp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/mddp.cpp > CMakeFiles/main.dir/src/mddp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/mddp.cpp > CMakeFiles/main.dir/src/mddp.cpp.i
 
 CMakeFiles/main.dir/src/mddp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/mddp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/mddp.cpp -o CMakeFiles/main.dir/src/mddp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/mddp.cpp -o CMakeFiles/main.dir/src/mddp.cpp.s
 
 CMakeFiles/main.dir/src/randomsearch.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/randomsearch.cpp.o: src/randomsearch.cpp
 CMakeFiles/main.dir/src/randomsearch.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/randomsearch.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/randomsearch.cpp.o -MF CMakeFiles/main.dir/src/randomsearch.cpp.o.d -o CMakeFiles/main.dir/src/randomsearch.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/randomsearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/randomsearch.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/randomsearch.cpp.o -MF CMakeFiles/main.dir/src/randomsearch.cpp.o.d -o CMakeFiles/main.dir/src/randomsearch.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/randomsearch.cpp
 
 CMakeFiles/main.dir/src/randomsearch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/randomsearch.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/randomsearch.cpp > CMakeFiles/main.dir/src/randomsearch.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/randomsearch.cpp > CMakeFiles/main.dir/src/randomsearch.cpp.i
 
 CMakeFiles/main.dir/src/randomsearch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/randomsearch.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/randomsearch.cpp -o CMakeFiles/main.dir/src/randomsearch.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/randomsearch.cpp -o CMakeFiles/main.dir/src/randomsearch.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -189,7 +189,7 @@ main: CMakeFiles/main.dir/src/mddp.cpp.o
 main: CMakeFiles/main.dir/src/randomsearch.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -201,6 +201,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 

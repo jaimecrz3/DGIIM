@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/common -I/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/inc
+CXX_INCLUDES = -I/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/common -I/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/inc
 
 CXX_FLAGS = 
 

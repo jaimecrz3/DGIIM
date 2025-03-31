@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh
+CMAKE_SOURCE_DIR = /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh
+CMAKE_BINARY_DIR = /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/CMakeFiles /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

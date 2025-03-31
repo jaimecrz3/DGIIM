@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/src/mddp.cpp.o: \
- /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/mddp.cpp \
+ /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/mddp.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/algorithm \
  /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -72,9 +72,9 @@ CMakeFiles/main.dir/src/mddp.cpp.o: \
  /usr/include/c++/13/bits/std_abs.h \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/inc/mddp.h \
- /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/common/problem.h \
- /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/common/solution.h \
+ /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/inc/mddp.h \
+ /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/common/problem.h \
+ /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/common/solution.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -95,7 +95,7 @@ CMakeFiles/main.dir/src/mddp.cpp.o: \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/common/random.hpp \
+ /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/common/random.hpp \
  /usr/include/c++/13/cassert /usr/include/assert.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \

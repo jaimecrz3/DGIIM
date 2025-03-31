@@ -270,7 +270,7 @@ CMakeFiles/main.dir/src/BLmejor.cpp.o: src/BLmejor.cpp \
   common/random.hpp \
   common/solution.h \
   common/util.h \
-  inc/BLmejor.h \
+  inc/BLpm.h \
   inc/mddp.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -530,7 +530,7 @@ CMakeFiles/main.dir/src/BLpm.cpp.o: src/BLpm.cpp \
   common/random.hpp \
   common/solution.h \
   common/util.h \
-  inc/BLpm.h \
+  inc/BLmejor.h \
   inc/mddp.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \

@@ -1,10 +1,10 @@
 CMakeFiles/main.dir/src/brutesearch.cpp.o: \
- /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/src/brutesearch.cpp \
+ /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/brutesearch.cpp \
  /usr/include/stdc-predef.h \
- /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/inc/brutesearch.h \
- /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/common/mh.h \
- /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/common/problem.h \
- /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/common/solution.h \
+ /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/inc/brutesearch.h \
+ /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/common/mh.h \
+ /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/common/problem.h \
+ /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/common/solution.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -55,7 +55,7 @@ CMakeFiles/main.dir/src/brutesearch.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/common/random.hpp \
+ /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/common/random.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \
@@ -203,4 +203,4 @@ CMakeFiles/main.dir/src/brutesearch.cpp.o: \
  /usr/include/c++/13/bits/stl_numeric.h \
  /usr/include/c++/13/pstl/glue_numeric_defs.h /usr/include/c++/13/utility \
  /usr/include/c++/13/bits/stl_relops.h /usr/include/c++/13/iostream \
- /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/template_mh/common/util.h
+ /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/common/util.h
