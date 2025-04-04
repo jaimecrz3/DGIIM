@@ -153,53 +153,53 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/BLmejor.o: src/BLmejor.cpp.o
-.PHONY : src/BLmejor.o
+src/BLheur.o: src/BLheur.cpp.o
+.PHONY : src/BLheur.o
 
 # target to build an object file
-src/BLmejor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLmejor.cpp.o
-.PHONY : src/BLmejor.cpp.o
+src/BLheur.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLheur.cpp.o
+.PHONY : src/BLheur.cpp.o
 
-src/BLmejor.i: src/BLmejor.cpp.i
-.PHONY : src/BLmejor.i
+src/BLheur.i: src/BLheur.cpp.i
+.PHONY : src/BLheur.i
 
 # target to preprocess a source file
-src/BLmejor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLmejor.cpp.i
-.PHONY : src/BLmejor.cpp.i
+src/BLheur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLheur.cpp.i
+.PHONY : src/BLheur.cpp.i
 
-src/BLmejor.s: src/BLmejor.cpp.s
-.PHONY : src/BLmejor.s
+src/BLheur.s: src/BLheur.cpp.s
+.PHONY : src/BLheur.s
 
 # target to generate assembly for a file
-src/BLmejor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLmejor.cpp.s
-.PHONY : src/BLmejor.cpp.s
+src/BLheur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLheur.cpp.s
+.PHONY : src/BLheur.cpp.s
 
-src/BLpm.o: src/BLpm.cpp.o
-.PHONY : src/BLpm.o
+src/BLrandom.o: src/BLrandom.cpp.o
+.PHONY : src/BLrandom.o
 
 # target to build an object file
-src/BLpm.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLpm.cpp.o
-.PHONY : src/BLpm.cpp.o
+src/BLrandom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLrandom.cpp.o
+.PHONY : src/BLrandom.cpp.o
 
-src/BLpm.i: src/BLpm.cpp.i
-.PHONY : src/BLpm.i
+src/BLrandom.i: src/BLrandom.cpp.i
+.PHONY : src/BLrandom.i
 
 # target to preprocess a source file
-src/BLpm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLpm.cpp.i
-.PHONY : src/BLpm.cpp.i
+src/BLrandom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLrandom.cpp.i
+.PHONY : src/BLrandom.cpp.i
 
-src/BLpm.s: src/BLpm.cpp.s
-.PHONY : src/BLpm.s
+src/BLrandom.s: src/BLrandom.cpp.s
+.PHONY : src/BLrandom.s
 
 # target to generate assembly for a file
-src/BLpm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLpm.cpp.s
-.PHONY : src/BLpm.cpp.s
+src/BLrandom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLrandom.cpp.s
+.PHONY : src/BLrandom.cpp.s
 
 src/brutesearch.o: src/brutesearch.cpp.o
 .PHONY : src/brutesearch.o
@@ -309,12 +309,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/BLmejor.o"
-	@echo "... src/BLmejor.i"
-	@echo "... src/BLmejor.s"
-	@echo "... src/BLpm.o"
-	@echo "... src/BLpm.i"
-	@echo "... src/BLpm.s"
+	@echo "... src/BLheur.o"
+	@echo "... src/BLheur.i"
+	@echo "... src/BLheur.s"
+	@echo "... src/BLrandom.o"
+	@echo "... src/BLrandom.i"
+	@echo "... src/BLrandom.s"
 	@echo "... src/brutesearch.o"
 	@echo "... src/brutesearch.i"
 	@echo "... src/brutesearch.s"

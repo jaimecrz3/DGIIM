@@ -83,33 +83,33 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
-CMakeFiles/main.dir/src/BLmejor.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/BLmejor.cpp.o: src/BLmejor.cpp
-CMakeFiles/main.dir/src/BLmejor.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/BLmejor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/BLmejor.cpp.o -MF CMakeFiles/main.dir/src/BLmejor.cpp.o.d -o CMakeFiles/main.dir/src/BLmejor.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLmejor.cpp
+CMakeFiles/main.dir/src/BLheur.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/BLheur.cpp.o: src/BLheur.cpp
+CMakeFiles/main.dir/src/BLheur.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/BLheur.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/BLheur.cpp.o -MF CMakeFiles/main.dir/src/BLheur.cpp.o.d -o CMakeFiles/main.dir/src/BLheur.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLheur.cpp
 
-CMakeFiles/main.dir/src/BLmejor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/BLmejor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLmejor.cpp > CMakeFiles/main.dir/src/BLmejor.cpp.i
+CMakeFiles/main.dir/src/BLheur.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/BLheur.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLheur.cpp > CMakeFiles/main.dir/src/BLheur.cpp.i
 
-CMakeFiles/main.dir/src/BLmejor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/BLmejor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLmejor.cpp -o CMakeFiles/main.dir/src/BLmejor.cpp.s
+CMakeFiles/main.dir/src/BLheur.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/BLheur.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLheur.cpp -o CMakeFiles/main.dir/src/BLheur.cpp.s
 
-CMakeFiles/main.dir/src/BLpm.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/BLpm.cpp.o: src/BLpm.cpp
-CMakeFiles/main.dir/src/BLpm.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/BLpm.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/BLpm.cpp.o -MF CMakeFiles/main.dir/src/BLpm.cpp.o.d -o CMakeFiles/main.dir/src/BLpm.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLpm.cpp
+CMakeFiles/main.dir/src/BLrandom.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/BLrandom.cpp.o: src/BLrandom.cpp
+CMakeFiles/main.dir/src/BLrandom.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/BLrandom.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/BLrandom.cpp.o -MF CMakeFiles/main.dir/src/BLrandom.cpp.o.d -o CMakeFiles/main.dir/src/BLrandom.cpp.o -c /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLrandom.cpp
 
-CMakeFiles/main.dir/src/BLpm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/BLpm.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLpm.cpp > CMakeFiles/main.dir/src/BLpm.cpp.i
+CMakeFiles/main.dir/src/BLrandom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/BLrandom.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLrandom.cpp > CMakeFiles/main.dir/src/BLrandom.cpp.i
 
-CMakeFiles/main.dir/src/BLpm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/BLpm.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLpm.cpp -o CMakeFiles/main.dir/src/BLpm.cpp.s
+CMakeFiles/main.dir/src/BLrandom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/BLrandom.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLrandom.cpp -o CMakeFiles/main.dir/src/BLrandom.cpp.s
 
 CMakeFiles/main.dir/src/brutesearch.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/brutesearch.cpp.o: src/brutesearch.cpp
@@ -170,8 +170,8 @@ CMakeFiles/main.dir/src/randomsearch.cpp.s: cmake_force
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
-"CMakeFiles/main.dir/src/BLmejor.cpp.o" \
-"CMakeFiles/main.dir/src/BLpm.cpp.o" \
+"CMakeFiles/main.dir/src/BLheur.cpp.o" \
+"CMakeFiles/main.dir/src/BLrandom.cpp.o" \
 "CMakeFiles/main.dir/src/brutesearch.cpp.o" \
 "CMakeFiles/main.dir/src/greedy.cpp.o" \
 "CMakeFiles/main.dir/src/mddp.cpp.o" \
@@ -181,8 +181,8 @@ main_OBJECTS = \
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
-main: CMakeFiles/main.dir/src/BLmejor.cpp.o
-main: CMakeFiles/main.dir/src/BLpm.cpp.o
+main: CMakeFiles/main.dir/src/BLheur.cpp.o
+main: CMakeFiles/main.dir/src/BLrandom.cpp.o
 main: CMakeFiles/main.dir/src/brutesearch.cpp.o
 main: CMakeFiles/main.dir/src/greedy.cpp.o
 main: CMakeFiles/main.dir/src/mddp.cpp.o

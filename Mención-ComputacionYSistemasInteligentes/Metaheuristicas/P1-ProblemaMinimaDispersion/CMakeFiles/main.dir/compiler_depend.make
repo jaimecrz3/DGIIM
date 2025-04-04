@@ -7,8 +7,8 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   common/random.hpp \
   common/solution.h \
   common/util.h \
-  inc/BLmejor.h \
-  inc/BLpm.h \
+  inc/BLheur.h \
+  inc/BLrandom.h \
   inc/greedy.h \
   inc/mddp.h \
   inc/randomsearch.h \
@@ -264,13 +264,13 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
-CMakeFiles/main.dir/src/BLmejor.cpp.o: src/BLmejor.cpp \
+CMakeFiles/main.dir/src/BLheur.cpp.o: src/BLheur.cpp \
   common/mh.h \
   common/problem.h \
   common/random.hpp \
   common/solution.h \
   common/util.h \
-  inc/BLpm.h \
+  inc/BLheur.h \
   inc/mddp.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -524,13 +524,13 @@ CMakeFiles/main.dir/src/BLmejor.cpp.o: src/BLmejor.cpp \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
-CMakeFiles/main.dir/src/BLpm.cpp.o: src/BLpm.cpp \
+CMakeFiles/main.dir/src/BLrandom.cpp.o: src/BLrandom.cpp \
   common/mh.h \
   common/problem.h \
   common/random.hpp \
   common/solution.h \
   common/util.h \
-  inc/BLmejor.h \
+  inc/BLrandom.h \
   inc/mddp.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1834,7 +1834,7 @@ src/greedy.cpp:
 
 src/brutesearch.cpp:
 
-src/BLmejor.cpp:
+src/BLheur.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
@@ -1884,10 +1884,6 @@ src/BLmejor.cpp:
 
 /usr/include/c++/13/fstream:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
 /usr/include/c++/13/cstddef:
 
 /usr/include/c++/13/bits/stl_algo.h:
@@ -1917,6 +1913,8 @@ inc/mddp.h:
 /usr/include/c++/13/tr1/beta_function.tcc:
 
 /usr/include/c++/13/bits/uses_allocator_args.h:
+
+/usr/include/c++/13/exception:
 
 /usr/include/c++/13/bits/stl_pair.h:
 
@@ -1952,13 +1950,23 @@ inc/mddp.h:
 
 /usr/include/c++/13/chrono:
 
+src/BLrandom.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+inc/BLheur.h:
+
+/usr/include/c++/13/bits/locale_facets.tcc:
+
 /usr/include/c++/13/system_error:
 
+/usr/include/c++/13/bits/string_view.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/c++/13/exception:
-
-inc/BLmejor.h:
 
 /usr/include/c++/13/bits/locale_facets.h:
 
@@ -1968,12 +1976,6 @@ inc/BLmejor.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-inc/brutesearch.h:
-
-/usr/include/c++/13/bits/streambuf.tcc:
-
-/usr/include/c++/13/bits/specfun.h:
-
 /usr/include/c++/13/bits/basic_string.h:
 
 /usr/include/c++/13/tr1/poly_laguerre.tcc:
@@ -1981,6 +1983,16 @@ inc/brutesearch.h:
 /usr/include/c++/13/bits/chrono.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/bits/algorithmfwd.h:
 
 /usr/include/c++/13/ext/alloc_traits.h:
 
@@ -1990,23 +2002,21 @@ inc/brutesearch.h:
 
 /usr/include/c++/13/bits/concept_check.h:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/c++/13/bits/algorithmfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
 /usr/include/c++/13/ios:
-
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/c++/13/bit:
 
 /usr/include/c++/13/bits/basic_string.tcc:
+
+/usr/include/c++/13/bits/stl_vector.h:
+
+/usr/include/c++/13/bits/random.h:
+
+/usr/include/c++/13/bits/codecvt.h:
+
+/usr/include/assert.h:
+
+common/util.h:
 
 /usr/include/c++/13/ext/string_conversions.h:
 
@@ -2020,43 +2030,39 @@ main.cpp:
 
 /usr/include/c++/13/iosfwd:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/c++/13/bits/string_view.tcc:
-
-/usr/include/c++/13/bits/locale_facets.tcc:
-
-inc/BLpm.h:
-
 /usr/include/c++/13/bits/uniform_int_dist.h:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
+
+inc/brutesearch.h:
+
+/usr/include/c++/13/bits/specfun.h:
+
+/usr/include/c++/13/bits/streambuf.tcc:
+
+/usr/include/c++/13/cwctype:
+
+/usr/include/c++/13/ratio:
+
+/usr/include/c++/13/backward/binders.h:
+
+/usr/include/c++/13/bits/fstream.tcc:
+
+/usr/include/c++/13/bits/ostream_insert.h:
 
 /usr/include/c++/13/bits/refwrap.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/c++/13/bits/fstream.tcc:
-
 /usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+inc/BLrandom.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
-/usr/include/c++/13/bits/stl_vector.h:
-
-/usr/include/c++/13/bits/random.h:
-
-/usr/include/c++/13/bits/codecvt.h:
-
-/usr/include/assert.h:
-
-common/util.h:
-
-/usr/include/c++/13/cwctype:
-
-/usr/include/c++/13/ratio:
 
 /usr/include/c++/13/pstl/glue_numeric_defs.h:
 
@@ -2092,10 +2098,6 @@ inc/greedy.h:
 
 /usr/include/c++/13/bits/ostream.tcc:
 
-/usr/include/c++/13/backward/binders.h:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
 /usr/include/alloca.h:
 
 inc/randomsearch.h:
@@ -2129,8 +2131,6 @@ common/random.hpp:
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-src/BLpm.cpp:
 
 /usr/include/c++/13/bits/functional_hash.h:
 
