@@ -136,6 +136,8 @@
 //   return 0;
 // }
 
+#include <locale>      
+#include <iomanip>      
 #include <iostream>
 #include <fstream>
 #include <problem.h> 
@@ -151,6 +153,9 @@ using namespace std;
 #include "BLheur.h"
 #include "greedy.h"
 #include "randomsearch.h"
+#include "AGG.h"
+#include "AGE.h"
+#include "AM.h"
 
 int main(int argc, char *argv[]) {
   vector<long int> seed;
@@ -175,11 +180,20 @@ int main(int argc, char *argv[]) {
       "GKD-b_46_n150_m45", "GKD-b_47_n150_m45", "GKD-b_48_n150_m45", "GKD-b_49_n150_m45", "GKD-b_50_n150_m45"};
 
   vector<pair<string, MH *>> algoritmos = {
-      {"Greedy", new GreedySearch()},
-      {"BLheur", new BusquedaLocalMejor()},
-      {"BLrandom", new BusquedaLocalPM()}};
+      //{"Greedy", new GreedySearch()},
+      //{"BLheur", new BusquedaLocalMejor()},
+      //{"BLrandom", new BusquedaLocalPM()}
+    //  {"AGG-uniforme", new AGG(true)},
+    //   {"AGG-posicion", new AGG(false)},
+    //   {"AGE-uniforme", new AGE(true)},
+    //   {"AGE-posicion", new AGE(false)},
+      // {"AM-(10,1.0)", new AM(1)},
+      // {"AM-(10,0.1)", new AM(2)},
+     {"AM-(10,0.1mej)", new AM(3)},
+      };
 
-  ofstream xlsFile("results.txt");
+        
+  ofstream xlsFile("results3.csv");
   xlsFile << "Algorithm\tFile\tFitness\tTime(ms)" << endl;
 
   for (auto &algoritmo : algoritmos) {
@@ -191,7 +205,7 @@ int main(int argc, char *argv[]) {
       tFitness fitness_medio = 0.0;
 
       for (long int s : seed) {
-        Random::seed(s);
+       Random::seed(s);
         auto start = high_resolution_clock::now();
         ResultMH result = mh->optimize(problem, 100000);
         auto end = high_resolution_clock::now();
@@ -201,7 +215,16 @@ int main(int argc, char *argv[]) {
 
       fitness_medio /= seed.size();
       tiempo_medio = milliseconds(tiempo_medio.count() / seed.size());
-      xlsFile << algoritmo.first << "\t" << file << "\t" << fitness_medio << "\t" << tiempo_medio.count() << endl;
+      //xlsFile << algoritmo.first << "\t" << file << "\t" << fitness_medio << "\t" << tiempo_medio.count() << endl;
+      ostringstream fitnessStream;
+      fitnessStream << fixed << setprecision(4) << fitness_medio;
+      string fitnessStr = fitnessStream.str();
+      replace(fitnessStr.begin(), fitnessStr.end(), '.', ',');
+
+      xlsFile << algoritmo.first << "\t" << file << "\t"
+              << fitnessStr << "\t"
+              << tiempo_medio.count() << endl;
+      
     }
   }
 

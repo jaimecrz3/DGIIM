@@ -1,6 +1,9 @@
-#include <mh.h>
+#pragma once
+#include <mhtrayectory.h>
 
-class BusquedaLocalPM : public MH {
+class BusquedaLocalPM : public MHTrayectory {
 public:
-  ResultMH optimize(Problem *problem, const int maxevals) override;
+  BusquedaLocalPM() : MHTrayectory() {}
+  ~BusquedaLocalPM() {}
+  ResultMH optimize(Problem *problem, const tSolution &current_param,tFitness fitness, int maxevals) override;
 };

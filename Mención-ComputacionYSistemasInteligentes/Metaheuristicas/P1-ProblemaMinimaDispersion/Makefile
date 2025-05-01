@@ -153,6 +153,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/AGE.o: src/AGE.cpp.o
+.PHONY : src/AGE.o
+
+# target to build an object file
+src/AGE.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/AGE.cpp.o
+.PHONY : src/AGE.cpp.o
+
+src/AGE.i: src/AGE.cpp.i
+.PHONY : src/AGE.i
+
+# target to preprocess a source file
+src/AGE.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/AGE.cpp.i
+.PHONY : src/AGE.cpp.i
+
+src/AGE.s: src/AGE.cpp.s
+.PHONY : src/AGE.s
+
+# target to generate assembly for a file
+src/AGE.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/AGE.cpp.s
+.PHONY : src/AGE.cpp.s
+
+src/AGG.o: src/AGG.cpp.o
+.PHONY : src/AGG.o
+
+# target to build an object file
+src/AGG.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/AGG.cpp.o
+.PHONY : src/AGG.cpp.o
+
+src/AGG.i: src/AGG.cpp.i
+.PHONY : src/AGG.i
+
+# target to preprocess a source file
+src/AGG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/AGG.cpp.i
+.PHONY : src/AGG.cpp.i
+
+src/AGG.s: src/AGG.cpp.s
+.PHONY : src/AGG.s
+
+# target to generate assembly for a file
+src/AGG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/AGG.cpp.s
+.PHONY : src/AGG.cpp.s
+
+src/AM.o: src/AM.cpp.o
+.PHONY : src/AM.o
+
+# target to build an object file
+src/AM.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/AM.cpp.o
+.PHONY : src/AM.cpp.o
+
+src/AM.i: src/AM.cpp.i
+.PHONY : src/AM.i
+
+# target to preprocess a source file
+src/AM.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/AM.cpp.i
+.PHONY : src/AM.cpp.i
+
+src/AM.s: src/AM.cpp.s
+.PHONY : src/AM.s
+
+# target to generate assembly for a file
+src/AM.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/AM.cpp.s
+.PHONY : src/AM.cpp.s
+
 src/BLheur.o: src/BLheur.cpp.o
 .PHONY : src/BLheur.o
 
@@ -309,6 +381,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/AGE.o"
+	@echo "... src/AGE.i"
+	@echo "... src/AGE.s"
+	@echo "... src/AGG.o"
+	@echo "... src/AGG.i"
+	@echo "... src/AGG.s"
+	@echo "... src/AM.o"
+	@echo "... src/AM.i"
+	@echo "... src/AM.s"
 	@echo "... src/BLheur.o"
 	@echo "... src/BLheur.i"
 	@echo "... src/BLheur.s"

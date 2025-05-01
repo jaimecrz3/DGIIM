@@ -40,19 +40,22 @@ Solo actualiza la parte afectada por el cambio, evitando calculos innecesarios.
 ResultMH BusquedaLocalMejor::optimize(Problem *problem, const int maxevals) {
   
    assert(maxevals > 0);
-   Mddp *realproblem = dynamic_cast<Mddp *>(problem);
+//    Mddp *realproblem = dynamic_cast<Mddp *>(problem);
+    Problem *realproblem = problem;
 
    //Inicializamos una solucion aletoria
     tSolution seleccionados;
     vector<int> no_seleccionados;
+    auto rango = realproblem->getSolutionDomainRange();
+    unsigned size = rango.second;
 
-    vector<int> aux(realproblem->getProblemSize());
+    vector<int> aux(size+1);
     for(int i=0; i<aux.size(); i++){
-        aux[i] = i;
+        aux[i] = i+rango.first;
     }
     Random::shuffle(aux);       
 
-    for(int i=0; i<realproblem->getProblemSize();i++){
+    for(int i=rango.first; i<= rango.second; i++){
         if(i<realproblem->getSolutionSize()){
             seleccionados.push_back(aux[i]);
         }else{
@@ -60,7 +63,7 @@ ResultMH BusquedaLocalMejor::optimize(Problem *problem, const int maxevals) {
         }
     }
 
-    MddpFactoringInfo *info = dynamic_cast<MddpFactoringInfo *>(realproblem->generateFactoringInfo(seleccionados));
+    SolutionFactoringInfo *info = realproblem->generateFactoringInfo(seleccionados);
     tFitness mejor_fitness = realproblem->fitness(seleccionados);
     int evaluaciones=1;
     bool mejora = true;
@@ -102,6 +105,7 @@ ResultMH BusquedaLocalMejor::optimize(Problem *problem, const int maxevals) {
 
     }
 
+    delete info;
 
   return ResultMH(seleccionados, mejor_fitness, evaluaciones);
 }

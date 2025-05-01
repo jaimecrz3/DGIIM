@@ -8,6 +8,17 @@
 
 using namespace std;
 
+class MddpFactoringInfo : public SolutionFactoringInfo {
+
+  public: 
+    MddpFactoringInfo() {}
+    MddpFactoringInfo(const MddpFactoringInfo &factsol) : info(factsol.info) {}
+    float media();
+
+    vector<double> info;
+
+
+};
 class Mddp : public Problem {
   size_t size; 
   size_t sol_size;
@@ -34,15 +45,22 @@ public:
   std::pair<tDomain, tDomain> getSolutionDomainRange() override {
     return std::make_pair(0, size-1);                                        
   }
-};
 
+  tFitness fitnessIn(const tSolution &solution,
+                           MddpFactoringInfo solution_info,
+                           unsigned pos_change);
+  tFitness fitnessOut(const tSolution &solution,
+                           MddpFactoringInfo solution_info,
+                           unsigned pos_change);                        
+  //SolutionFactoringInfo *generateFactoringInfoBinary(const tSolution &solution_binary);
+  MddpFactoringInfo generateFactoringInfoBinary(const tSolution &solution_binary);
 
-class MddpFactoringInfo : public SolutionFactoringInfo {
-
-  public: 
-    MddpFactoringInfo() {}
-    MddpFactoringInfo(const MddpFactoringInfo &factsol) : info(factsol.info) {}
-
-    vector<double> info;
-
+  void updateSolutionFactoringInfoIn(MddpFactoringInfo &solution_info,
+                                    const tSolution &solution,
+                                    unsigned pos_change);
+  float distanciasIn(const tSolution &solution,
+                                  unsigned pos_change);
+  void updateSolutionFactoringInfoOut(MddpFactoringInfo &solution_info,
+                                    const tSolution &solution,
+                                    unsigned pos_change);
 };

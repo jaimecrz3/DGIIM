@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
+  "/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/AGE.cpp" "CMakeFiles/main.dir/src/AGE.cpp.o" "gcc" "CMakeFiles/main.dir/src/AGE.cpp.o.d"
+  "/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/AGG.cpp" "CMakeFiles/main.dir/src/AGG.cpp.o" "gcc" "CMakeFiles/main.dir/src/AGG.cpp.o.d"
+  "/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/AM.cpp" "CMakeFiles/main.dir/src/AM.cpp.o" "gcc" "CMakeFiles/main.dir/src/AM.cpp.o.d"
   "/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLheur.cpp" "CMakeFiles/main.dir/src/BLheur.cpp.o" "gcc" "CMakeFiles/main.dir/src/BLheur.cpp.o.d"
   "/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/BLrandom.cpp" "CMakeFiles/main.dir/src/BLrandom.cpp.o" "gcc" "CMakeFiles/main.dir/src/BLrandom.cpp.o.d"
   "/home/usuario/Documentos/DGIIMGITHUB/DGIIM/Mención-ComputacionYSistemasInteligentes/Metaheuristicas/P1-ProblemaMinimaDispersion/src/brutesearch.cpp" "CMakeFiles/main.dir/src/brutesearch.cpp.o" "gcc" "CMakeFiles/main.dir/src/brutesearch.cpp.o.d"

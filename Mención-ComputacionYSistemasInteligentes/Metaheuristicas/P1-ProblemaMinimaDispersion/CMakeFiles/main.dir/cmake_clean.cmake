@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o.d"
+  "CMakeFiles/main.dir/src/AGE.cpp.o"
+  "CMakeFiles/main.dir/src/AGE.cpp.o.d"
+  "CMakeFiles/main.dir/src/AGG.cpp.o"
+  "CMakeFiles/main.dir/src/AGG.cpp.o.d"
+  "CMakeFiles/main.dir/src/AM.cpp.o"
+  "CMakeFiles/main.dir/src/AM.cpp.o.d"
   "CMakeFiles/main.dir/src/BLheur.cpp.o"
   "CMakeFiles/main.dir/src/BLheur.cpp.o.d"
   "CMakeFiles/main.dir/src/BLrandom.cpp.o"
