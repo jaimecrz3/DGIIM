@@ -1,6 +1,18 @@
 {
     "files.associations": {
-        "string": "cpp"
+        "string": "cpp",
+        "chrono": "cpp",
+        "deque": "cpp",
+        "vector": "cpp",
+        "array": "cpp",
+        "list": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "string_view": "cpp",
+        "format": "cpp",
+        "initializer_list": "cpp",
+        "span": "cpp",
+        "valarray": "cpp"
     },
     "cmake.buildDirectory": "${workspaceFolder}"
 }

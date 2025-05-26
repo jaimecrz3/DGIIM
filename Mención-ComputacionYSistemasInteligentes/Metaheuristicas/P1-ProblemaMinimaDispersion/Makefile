@@ -273,6 +273,126 @@ src/BLrandom.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BLrandom.cpp.s
 .PHONY : src/BLrandom.cpp.s
 
+src/BMB.o: src/BMB.cpp.o
+.PHONY : src/BMB.o
+
+# target to build an object file
+src/BMB.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BMB.cpp.o
+.PHONY : src/BMB.cpp.o
+
+src/BMB.i: src/BMB.cpp.i
+.PHONY : src/BMB.i
+
+# target to preprocess a source file
+src/BMB.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BMB.cpp.i
+.PHONY : src/BMB.cpp.i
+
+src/BMB.s: src/BMB.cpp.s
+.PHONY : src/BMB.s
+
+# target to generate assembly for a file
+src/BMB.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/BMB.cpp.s
+.PHONY : src/BMB.cpp.s
+
+src/ES.o: src/ES.cpp.o
+.PHONY : src/ES.o
+
+# target to build an object file
+src/ES.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ES.cpp.o
+.PHONY : src/ES.cpp.o
+
+src/ES.i: src/ES.cpp.i
+.PHONY : src/ES.i
+
+# target to preprocess a source file
+src/ES.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ES.cpp.i
+.PHONY : src/ES.cpp.i
+
+src/ES.s: src/ES.cpp.s
+.PHONY : src/ES.s
+
+# target to generate assembly for a file
+src/ES.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ES.cpp.s
+.PHONY : src/ES.cpp.s
+
+src/GRASP.o: src/GRASP.cpp.o
+.PHONY : src/GRASP.o
+
+# target to build an object file
+src/GRASP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/GRASP.cpp.o
+.PHONY : src/GRASP.cpp.o
+
+src/GRASP.i: src/GRASP.cpp.i
+.PHONY : src/GRASP.i
+
+# target to preprocess a source file
+src/GRASP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/GRASP.cpp.i
+.PHONY : src/GRASP.cpp.i
+
+src/GRASP.s: src/GRASP.cpp.s
+.PHONY : src/GRASP.s
+
+# target to generate assembly for a file
+src/GRASP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/GRASP.cpp.s
+.PHONY : src/GRASP.cpp.s
+
+src/ILS-ES.o: src/ILS-ES.cpp.o
+.PHONY : src/ILS-ES.o
+
+# target to build an object file
+src/ILS-ES.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ILS-ES.cpp.o
+.PHONY : src/ILS-ES.cpp.o
+
+src/ILS-ES.i: src/ILS-ES.cpp.i
+.PHONY : src/ILS-ES.i
+
+# target to preprocess a source file
+src/ILS-ES.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ILS-ES.cpp.i
+.PHONY : src/ILS-ES.cpp.i
+
+src/ILS-ES.s: src/ILS-ES.cpp.s
+.PHONY : src/ILS-ES.s
+
+# target to generate assembly for a file
+src/ILS-ES.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ILS-ES.cpp.s
+.PHONY : src/ILS-ES.cpp.s
+
+src/ILS.o: src/ILS.cpp.o
+.PHONY : src/ILS.o
+
+# target to build an object file
+src/ILS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ILS.cpp.o
+.PHONY : src/ILS.cpp.o
+
+src/ILS.i: src/ILS.cpp.i
+.PHONY : src/ILS.i
+
+# target to preprocess a source file
+src/ILS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ILS.cpp.i
+.PHONY : src/ILS.cpp.i
+
+src/ILS.s: src/ILS.cpp.s
+.PHONY : src/ILS.s
+
+# target to generate assembly for a file
+src/ILS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ILS.cpp.s
+.PHONY : src/ILS.cpp.s
+
 src/brutesearch.o: src/brutesearch.cpp.o
 .PHONY : src/brutesearch.o
 
@@ -396,6 +516,21 @@ help:
 	@echo "... src/BLrandom.o"
 	@echo "... src/BLrandom.i"
 	@echo "... src/BLrandom.s"
+	@echo "... src/BMB.o"
+	@echo "... src/BMB.i"
+	@echo "... src/BMB.s"
+	@echo "... src/ES.o"
+	@echo "... src/ES.i"
+	@echo "... src/ES.s"
+	@echo "... src/GRASP.o"
+	@echo "... src/GRASP.i"
+	@echo "... src/GRASP.s"
+	@echo "... src/ILS-ES.o"
+	@echo "... src/ILS-ES.i"
+	@echo "... src/ILS-ES.s"
+	@echo "... src/ILS.o"
+	@echo "... src/ILS.i"
+	@echo "... src/ILS.s"
 	@echo "... src/brutesearch.o"
 	@echo "... src/brutesearch.i"
 	@echo "... src/brutesearch.s"

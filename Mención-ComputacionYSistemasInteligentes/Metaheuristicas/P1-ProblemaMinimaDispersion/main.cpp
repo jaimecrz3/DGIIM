@@ -156,6 +156,11 @@ using namespace std;
 #include "AGG.h"
 #include "AGE.h"
 #include "AM.h"
+#include "BMB.h"
+#include "ILS.h"
+#include "ES.h"
+#include "GRASP.h"
+#include "ILS_ES.h" 
 
 int main(int argc, char *argv[]) {
   vector<long int> seed;
@@ -189,11 +194,18 @@ int main(int argc, char *argv[]) {
     //   {"AGE-posicion", new AGE(false)},
       // {"AM-(10,1.0)", new AM(1)},
       // {"AM-(10,0.1)", new AM(2)},
-     {"AM-(10,0.1mej)", new AM(3)},
+     //{"AM-(10,0.1mej)", new AM(3)},
+    //  {"BMB", new BMB()},
+    //  {"ILS", new ILS()},
+    // {"ES", new ES()},
+    //  {"ILS_ES", new ILS_ES()},
+    //  {"GRASP con BL", new GRASP(true)},
+    //  {"GRASP sin BL", new GRASP(false)},
+      {"Random", new RandomSearch()},
       };
 
         
-  ofstream xlsFile("results3.csv");
+  ofstream xlsFile("results4.csv");
   xlsFile << "Algorithm\tFile\tFitness\tTime(ms)" << endl;
 
   for (auto &algoritmo : algoritmos) {
