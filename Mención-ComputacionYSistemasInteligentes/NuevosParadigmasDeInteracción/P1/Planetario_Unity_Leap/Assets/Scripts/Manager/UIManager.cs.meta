@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 12144643e4ea1f64eb299ef70d84bf62
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - startMenuCanvas: {instanceID: 0}
+  - startButtonText: {instanceID: 0}
+  - PlanetMenu: {instanceID: 0}
+  - planetTitle: {instanceID: 0}
+  - planetDescription: {instanceID: 0}
+  - modeBannerPanel: {instanceID: 0}
+  - modeImage: {instanceID: 0}
+  - modeText: {instanceID: 0}
+  - kidSprite: {instanceID: 0}
+  - normalSprite: {instanceID: 0}
+  - expertSprite: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
