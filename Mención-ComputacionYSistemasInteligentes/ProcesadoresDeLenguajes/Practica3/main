@@ -1,0 +1,170 @@
+programa
+{
+  locales {
+    //entero 1e; // ERROR
+    entero  ve; // ERROR
+    real   vf;
+    caracter vc;
+    booleano vl;
+    
+    entero  arr_e1[10], mat_e1[5,5], mat_e2[5][5]; // ERROR
+    real   arr_r1[10], mat_r1[5,5], mat_r2[5][5]; // ERROR
+    caracter arr_c1[10], mat_c1[5,5], mat_c2[5][5];
+    booleano arr_b1[10], mat_b1[5,5], mat_b2[5][5];
+    
+    real res_aux_real;
+    caracter res_aux_char;
+  }
+
+  procedimiento procA (entero a1, real a2, caracter a3)  
+  {
+    locales { entero x1, x2; } 
+
+    procedimiento procB (caracter b1, caracter b2) // ERROR
+    {
+      locales { real xf; real x8; real resC1, resC2, resC3; }
+
+     
+      procedimiento procC (booleano b, entero c2, real & resultado)  // ERROR
+      {
+        locales { real x1 ; }
+
+        x1 = 1.3 ;
+        si (c2 > 10)
+          c2 = c2 - 1 ;
+        sino  
+          x1 = 3.1 ;
+        
+
+        resultado = x1 ; 
+      } // Fin procC
+
+      // Requisito 2: Llamadas
+      // Las llamadas ahora no devuelven valor, pasan la variable resultado
+      procC(true, 10, xf) ; // xf = funcionC(true, 10)
+
+      // Requisito 5: Expresion compleja
+      procC(false, 1, resC1);
+      procC(true, 23, resC2);
+      x2 = xf * ( resC1 - resC2 ) / 10.0; 
+
+      // Requisito 3 y 4: Sentencia 'mientras' con condicion compuesta
+      procC(false, 1, resC3);
+      mientras ( (x2 * resC3 - xf) < 10.0 ) hacer {
+        x2 = x2 * xf ;
+      }
+    } // Fin procB
+
+    // Requisito 2: Llamada al procedimiento anidado
+    procB('z', true); 
+
+  } // Fin procA
+
+  // Requisito 1: Procedimiento Paralelo (D)
+  procedimiento procD (real d1, entero &res_salida)
+  {
+      locales {
+        caracter dato ;
+        entero valor ;
+      }
+
+      // Requisito 1: Anidamiento Nivel 2 (E)
+      procedimiento procE (caracter e1, caracter &resultado)
+      {
+        escritura "introduzca dos caracteres: " ;
+        lectura e1, e2 ;
+
+        si (e1 == 'a')   resultado = e1 ;
+        sino si (e1 == 'b') resultado = e2 ;
+        sino        resultado = ' ' ;
+      } // Fin procE
+
+      escritura "introduzca un valor entero: " ;
+      lectura valor ;
+
+      // Requisito 2: Llamada
+      procE('x', 'y', dato);
+
+      si (d1 > 0.0)
+      {
+        locales { entero dato ; } // Ocultamiento de variable (shadowing)
+        dato = 2 ;
+        dato = valor * 20 / dato ;
+      }
+      sino
+      {
+        valor = valor * 100 ;
+        d1  = d1 / 1000.0 ;
+      }
+
+      res_salida = valor; // "Devuelve" el valor de 'valor'
+  } // Fin procD
+
+  /* --- INICIO DEL CUERPO DEL PROGRAMA PRINCIPAL --- */
+
+  // Requisito 2: Llamadas a los procedimientos de nivel superior
+  procA(10, 5.5, 'a');
+  procD(12.34, ve); // 've' recibira el valor de 'res_salida' de procD
+
+  // Requisito 3: Sentencias tipo (lectura, escritura, asignacion)
+  escritura "Ejemplo de escritura de cadena." ;
+  escritura "Introduce un entero y un real: " ;
+  lectura ve, vf;
+
+  //Requisito 3, 4, 5: 'si' con condicion compuesta
+  si  ((ve > 0) || (vl == true) ) { // ERROR
+    escritura "Condicion compleja SI" ;
+    ve = (ve + 5) * 2;
+  }
+  sino {
+    escritura "Condicion compleja SINO" ;
+  }
+
+  // si ( ((ve > 0) & || (vl == true) ) { // ERROR
+  //   escritura "Condicion compleja SI" ;
+  //   ve = (ve + 5 * 2; // ERROR
+  // }
+
+  // Requisito 6: Expresiones del tipo estructurado (Arrays)
+  // Asignacion de constante de array (asumiendo sintaxis de Practica 1)
+  arr_e1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+  arr_e2 = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+
+  // Operacion elemento a elemento
+  arr_e3 = arr_e1 + arr_e2; // arr_e3 sera {11, 11, 11, ...}
+
+  // Operacion escalar (constante basica)
+  arr_e1 = arr_e3 * 2; // arr_e1 sera {22, 22, 22, ...}
+  
+  // Acceso a elemento
+  ve = arr_e1[0] + arr_e1[9]; // ve = 22 + 22 = 44 (asumiendo C-style 0-based)
+
+  // Producto matricial (asumiendo ** como operador)
+  // mat_r1 = mat_r2 ** mat_r3; // (Necesitarias inicializar mat_r2 y mat_r3)
+
+  // Requisito de "Sentencias tipo... en al menos dos lugares" (switch)
+  // Esta es vuestra sentencia de control adicional (segun/case)
+  segun (ve) {
+    // caso 44 { // ERROR
+    //   escritura "El valor de 've' es 44." ;
+    //   parar;
+    // }
+
+    caso 10: 
+      escritura "El valor es 10." ;
+      parar;
+    
+
+    otro: 
+      escritura "El valor es otro." ;
+    
+  }
+
+  mientras (ve > 10) hacer { 
+    ve--;
+    escritura "en el while, ve = ", ve ;
+
+    hola++; // ERROR
+  }
+  
+}

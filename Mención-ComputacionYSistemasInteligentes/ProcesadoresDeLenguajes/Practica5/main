@@ -1,0 +1,78 @@
+// Escribe la descomposición de un número entero en sus factores primos,
+// agrupando factores iguales con potencias.
+
+programa
+{
+  locales {
+    entero   n ;
+    entero   curr ;
+    entero   d ;
+    entero   ultim ;
+    entero   cuenta ;
+    booleano primero ;
+  }
+
+  // Inicialización
+  escritura "introduce numero : " ;
+  lectura n ;
+
+  escritura n, " = " ;
+
+  curr    = 2 ;
+  ultim   = 0 ;
+  cuenta  = 0 ;
+  primero = true ;
+
+  mientras (curr <= n) hacer {
+
+    d = n / curr ;
+
+    si (d * curr == n) {                 // curr divide a n
+
+      si (curr != ultim) {
+        ultim  = curr ;
+        cuenta = 1 ;
+      }
+      sino {
+        cuenta = cuenta + 1 ;
+      }
+
+      n = n / curr ;
+    }
+    sino {                               // curr no divide a n
+
+      si (cuenta > 0) {
+
+        si (primero == false) {
+          escritura " *" ;
+        }
+        primero = false ;
+
+        escritura " ", curr ;
+        si (cuenta > 1) {
+          escritura "^", cuenta ;
+        }
+      }
+
+      curr   = curr + 1 ;
+      cuenta = 0 ;
+    }
+  }
+
+  // Si queda un bloque de factores pendientes al salir del bucle
+  si (cuenta > 0) {
+    si (primero == false) {
+      escritura " *" ;
+    }
+    primero = false ;
+
+    escritura " ", curr ;
+    si (cuenta > 1) {
+      escritura "^", cuenta ;
+    }
+  }
+
+  escritura "\n" ;
+}
+
+

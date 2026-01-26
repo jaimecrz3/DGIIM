@@ -1,0 +1,165 @@
+programa
+{
+  locales {
+    // ---------------------------------------------------------
+    // ERROR - Error léxico en una declaración.
+    // Introducimos un símbolo inválido (como '@') en el tipo para que genere error.
+    // ---------------------------------------------------------
+    // @entero ve_error_lexico;
+
+    entero  ve;  
+    real   vf;
+    caracter vc;
+    booleano vl;
+    
+    entero  arr_e1[10], arr_e2[10], arr_e3[5], mat_e2[5][5]; 
+    real   arr_r1[10], mat_r1[5][5], mat_r2[2][3], mat_r3[3][2]; 
+    caracter arr_c1[10],  mat_c2[5][5];
+    booleano arr_b1[10],mat_b2[5][5];
+    
+    real res_aux_real;
+    caracter res_aux_char;
+  }
+
+  procedimiento procA (entero a1, real a2, caracter a3)  
+  {
+    locales { entero x1, x2; 
+      // ---------------------------------------------------------
+      // ERROR - Declaramos un argumento de un subprograma en su interior.
+      // Redeclaramos 'a1' para que genere error.
+      // ---------------------------------------------------------
+      //entero a1;
+    } 
+
+    procedimiento procB (caracter b1, caracter b2)  
+    {
+      locales { real xf; real x8; real resC1, resC2, resC3; }
+
+     
+      procedimiento procC (booleano b, entero c2 , real & resultado)   
+      {
+       
+        // ERROR - 'x1' entero y '1.3' real (Al comprobar tipos, verá que no son los mismos).
+        // x1 = 1.3 ;
+        si (c2 > 10)
+          c2 = c2 - 1 ;
+        sino  
+          x1 = 3 ;
+        
+
+        // resultado = x1 ; // ERROR - Asignación de tipos distintos
+      } // Fin procC
+
+      
+      procC(true, 10, xf) ; 
+
+      // ---------------------------------------------------------
+      // ERROR - Llamada a función con tipo de los argumentos erróneos.
+      // 'procC' espera (booleano, entero, real). Pasamos (entero, entero, real).
+      // ---------------------------------------------------------
+      //procC(100, 10, xf);
+
+      // ---------------------------------------------------------
+      // ERROR - Llamada a función donde faltan argumentos.
+      // 'procC' espera 3 argumentos, pasamos solo 2.
+      // ---------------------------------------------------------
+      //procC(true, 10);
+
+    } // Fin procB
+
+    //procB('z', true); // ERROR - Llamada a función con tipo de los argumentos erróneos.
+
+  } // Fin procA
+
+  procedimiento procD (real d1, entero &res_salida)
+  {
+      locales {
+        caracter dato ;
+        entero valor ;
+      }
+
+      procedimiento procE (caracter e1, caracter &resultado)
+      {
+        escritura "introduzca dos caracteres: " ;
+        //lectura e1, e2 ;
+
+        si (e1 == 'a')   resultado = e1 ;
+        //sino si (e1 == 'b') resultado = e2 ; // ERROR - Variable 'e2' no declarada.
+        sino        resultado = ' ' ;
+      } // Fin procE
+
+      escritura "introduzca un valor entero: " ;
+      lectura valor ;
+
+      res_salida = valor; 
+  } // Fin procD
+
+
+  // =========================================================
+  // CUERPO DEL PROGRAMA PRINCIPAL
+  // =========================================================
+
+  procA(10, 5.5, 'a');
+
+  // ---------------------------------------------------------
+  // ERROR - Llamada a procedimiento B fuera de su ÁMBITO.
+  // 'procB' está declarado dentro de 'procA'.
+  // ---------------------------------------------------------
+  //procB('a', 'b');
+
+
+  // ---------------------------------------------------------
+  // ERROR - Comprobación de tipos en expresiones.
+  // 've' es entero, 'true' es booleano, luego no se pueden sumar.
+  // ---------------------------------------------------------
+  //ve = ve + true;
+
+  // ERROR - Error en tipos de expresión: (ve > 0) devuelve bool, se intenta hacer AND con un número (5).
+  // si ( (ve > 0) && 5 ) {
+  //    escritura "Error tipos logicos";
+  // }
+
+
+  
+  arr_e1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+  arr_e2 = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+
+  // ---------------------------------------------------------
+  // ERROR - Comprobación de tipos en asignación con arrays.
+  // Intenta asignar un array de caracteres (arr_c1) a un array de enteros (arr_e1).
+  // ---------------------------------------------------------
+  // arr_e1 = arr_c1;
+
+  // ERROR - Operación inválida entre array y tipo incompatible: Sumar un array de enteros con un caracter.
+  //arr_e1 = arr_e1 + 'a';
+  
+
+  // Operacion elemento a elemento
+  //arr_e3 = arr_e1 + arr_e2; // ERROR - Comprobación de tamaños al sumar arrays: Tamaño 'arr_e3' más pequeño que 'arr_e1' y 'arr_e2'.
+
+  // Operacion escalar 
+  arr_e1 = arr_e3 * 2; 
+  
+  // Acceso a elementos
+  ve = arr_e1[0] + arr_e1[9]; 
+
+  // Producto matricial usando '**':
+  // mat_r2 = {{'a','a','a'}, {'b','v','f'}};     // ERROR - Comprobación de tipos: 'mat_r2' es de tipo real.
+  // mat_r3 = {{1, 0.2}, {2.5, 3.3}, {0.4, 2.5}};
+
+  // mat_r1 = mat_r2 ** mat_r2;  // ERROR - Comprobación de tamaños al multiplicar matrices de tamaño incorrecto
+
+  
+  segun (ve) {
+    caso 10: 
+      escritura "El valor es 10." ;
+      parar;
+    
+
+    otro: 
+      escritura "El valor es otro." ;
+    
+  }
+
+  
+}

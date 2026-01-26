@@ -1,0 +1,30 @@
+programa
+{
+  locales {
+    entero n ;
+    entero curr ;
+    entero d ;
+  }
+
+  // Lectura del número
+  escritura "introduce numero : " ;
+  lectura n ;
+
+  escritura n, " = " ;
+
+  curr = 2 ;
+
+  mientras (curr <= n) hacer {
+    d = n / curr ;
+
+    si (d * curr == n) {          // curr divide a n
+      escritura " * ", curr ;
+      n = n / curr ;
+    }
+    sino {
+      curr = curr + 1 ;
+    }
+  }
+
+  escritura "\n" ;
+}

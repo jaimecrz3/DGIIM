@@ -1,0 +1,32 @@
+programa
+{
+  locales {
+    entero n ;
+    entero resto;
+  }
+
+  // Lectura del número
+  escritura "introduce numero : " ;
+  lectura n ;
+
+  resto=n%2;
+
+  
+
+  segun(resto){
+    caso 0:
+        escritura "Es un número par";
+        parar;
+    caso 1:
+        escritura "Es un número impar";
+        parar;
+    otro:
+        escritura "Error";
+
+    
+  }
+
+  
+
+  escritura "\n" ;
+}
