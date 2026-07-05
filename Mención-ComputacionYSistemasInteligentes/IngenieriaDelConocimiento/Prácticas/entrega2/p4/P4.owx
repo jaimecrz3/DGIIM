@@ -1,0 +1,1022 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mario/ontologies/2026/4/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mario/ontologies/2026/4/">
+    <Prefix name="" IRI="http://www.semanticweb.org/mario/ontologies/2026/4//"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="PropiedadPicante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PropiedadSinGluten"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PropiedadVegana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PropiedadVegetariana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RecetaPicante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RecetaSinGluten"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RecetaVegana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RecetaVegetariana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="UsoIngrediente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cliente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desayuno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entrante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingrediente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlatoPrincipal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propiedades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Receta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="usaIngrediente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#evitaIngrediente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preferenciasCliente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#propiedadesReceta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneUsoIngrediente"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Calorias"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cantidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Dificultad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Edad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Fibra"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Grasas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#N_comensales"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NombreCliente"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NombreIngrediente"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NombreReceta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Peso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Picante"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Proteínas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SinGluten"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Vegana"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Vegetariana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="I1_Tomate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="I2_Huevo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="I3_Harina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="I4_Pollo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="I5_Lechuga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="I6_Queso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="I7_Arroz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="I8_Azucar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="I9_Leche"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="P_Picante"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="P_SinGluten"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="P_Vegana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="P_Vegetariana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="R1_Salmorejo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="R2_Tortilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="R3_PastaConTomate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="R5_Bizcocho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="R6_Pizza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UsoAzucarBizcocho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UsoHarinaBizcocho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UsoHarinaPizza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UsoHuevoBizcocho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UsoHuevoTortilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UsoLecheBizcocho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UsoTomatePasta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UsoTomateSalmorejo"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="RecetaPicante"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Receta"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#propiedadesReceta"/>
+                <Class IRI="PropiedadPicante"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="RecetaSinGluten"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Receta"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#propiedadesReceta"/>
+                <Class IRI="PropiedadSinGluten"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="RecetaVegana"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Receta"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#propiedadesReceta"/>
+                <Class IRI="PropiedadVegana"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="RecetaVegetariana"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Receta"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#propiedadesReceta"/>
+                <Class IRI="PropiedadVegetariana"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="PropiedadPicante"/>
+        <Class IRI="#Propiedades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PropiedadSinGluten"/>
+        <Class IRI="#Propiedades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PropiedadVegana"/>
+        <Class IRI="PropiedadVegetariana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PropiedadVegetariana"/>
+        <Class IRI="#Propiedades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RecetaPicante"/>
+        <Class IRI="#Receta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RecetaSinGluten"/>
+        <Class IRI="#Receta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RecetaVegana"/>
+        <Class IRI="#Receta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RecetaVegetariana"/>
+        <Class IRI="#Receta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="UsoIngrediente"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="usaIngrediente"/>
+            <Class IRI="#Ingrediente"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="UsoIngrediente"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Cantidad"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cliente"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#NombreCliente"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desayuno"/>
+        <Class IRI="#Receta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entrante"/>
+        <Class IRI="#Receta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingrediente"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#NombreIngrediente"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlatoPrincipal"/>
+        <Class IRI="#Receta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postre"/>
+        <Class IRI="#Receta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Receta"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneUsoIngrediente"/>
+            <Class IRI="UsoIngrediente"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Receta"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#NombreReceta"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="UsoIngrediente"/>
+        <Class IRI="#Cliente"/>
+        <Class IRI="#Ingrediente"/>
+        <Class IRI="#Propiedades"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cliente"/>
+        <Class IRI="#Ingrediente"/>
+        <Class IRI="#Propiedades"/>
+        <Class IRI="#Receta"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Desayuno"/>
+        <Class IRI="#Entrante"/>
+        <Class IRI="#PlatoPrincipal"/>
+        <Class IRI="#Postre"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Ingrediente"/>
+        <NamedIndividual IRI="I1_Tomate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingrediente"/>
+        <NamedIndividual IRI="I2_Huevo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingrediente"/>
+        <NamedIndividual IRI="I3_Harina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingrediente"/>
+        <NamedIndividual IRI="I4_Pollo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingrediente"/>
+        <NamedIndividual IRI="I5_Lechuga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingrediente"/>
+        <NamedIndividual IRI="I6_Queso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingrediente"/>
+        <NamedIndividual IRI="I7_Arroz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingrediente"/>
+        <NamedIndividual IRI="I8_Azucar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingrediente"/>
+        <NamedIndividual IRI="I9_Leche"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PropiedadPicante"/>
+        <NamedIndividual IRI="P_Picante"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PropiedadSinGluten"/>
+        <NamedIndividual IRI="P_SinGluten"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PropiedadVegana"/>
+        <NamedIndividual IRI="P_Vegana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PropiedadVegetariana"/>
+        <NamedIndividual IRI="P_Vegetariana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Entrante"/>
+        <NamedIndividual IRI="R1_Salmorejo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Entrante"/>
+        <NamedIndividual IRI="R2_Tortilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PlatoPrincipal"/>
+        <NamedIndividual IRI="R3_PastaConTomate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postre"/>
+        <NamedIndividual IRI="R5_Bizcocho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PlatoPrincipal"/>
+        <NamedIndividual IRI="R6_Pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="UsoIngrediente"/>
+        <NamedIndividual IRI="UsoAzucarBizcocho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="UsoIngrediente"/>
+        <NamedIndividual IRI="UsoHarinaBizcocho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="UsoIngrediente"/>
+        <NamedIndividual IRI="UsoHarinaPizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="UsoIngrediente"/>
+        <NamedIndividual IRI="UsoHuevoBizcocho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="UsoIngrediente"/>
+        <NamedIndividual IRI="UsoHuevoTortilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="UsoIngrediente"/>
+        <NamedIndividual IRI="UsoLecheBizcocho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="UsoIngrediente"/>
+        <NamedIndividual IRI="UsoTomatePasta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="UsoIngrediente"/>
+        <NamedIndividual IRI="UsoTomateSalmorejo"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#propiedadesReceta"/>
+        <NamedIndividual IRI="R1_Salmorejo"/>
+        <NamedIndividual IRI="P_Picante"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#propiedadesReceta"/>
+        <NamedIndividual IRI="R1_Salmorejo"/>
+        <NamedIndividual IRI="P_SinGluten"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#propiedadesReceta"/>
+        <NamedIndividual IRI="R1_Salmorejo"/>
+        <NamedIndividual IRI="P_Vegana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneUsoIngrediente"/>
+        <NamedIndividual IRI="R1_Salmorejo"/>
+        <NamedIndividual IRI="UsoTomateSalmorejo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneUsoIngrediente"/>
+        <NamedIndividual IRI="R2_Tortilla"/>
+        <NamedIndividual IRI="UsoHuevoTortilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneUsoIngrediente"/>
+        <NamedIndividual IRI="R3_PastaConTomate"/>
+        <NamedIndividual IRI="UsoTomatePasta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#propiedadesReceta"/>
+        <NamedIndividual IRI="R5_Bizcocho"/>
+        <NamedIndividual IRI="P_Vegetariana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneUsoIngrediente"/>
+        <NamedIndividual IRI="R5_Bizcocho"/>
+        <NamedIndividual IRI="UsoAzucarBizcocho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneUsoIngrediente"/>
+        <NamedIndividual IRI="R5_Bizcocho"/>
+        <NamedIndividual IRI="UsoHarinaBizcocho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneUsoIngrediente"/>
+        <NamedIndividual IRI="R5_Bizcocho"/>
+        <NamedIndividual IRI="UsoHuevoBizcocho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneUsoIngrediente"/>
+        <NamedIndividual IRI="R5_Bizcocho"/>
+        <NamedIndividual IRI="UsoLecheBizcocho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#propiedadesReceta"/>
+        <NamedIndividual IRI="R6_Pizza"/>
+        <NamedIndividual IRI="P_Vegetariana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneUsoIngrediente"/>
+        <NamedIndividual IRI="R6_Pizza"/>
+        <NamedIndividual IRI="UsoHarinaPizza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="usaIngrediente"/>
+        <NamedIndividual IRI="UsoAzucarBizcocho"/>
+        <NamedIndividual IRI="I8_Azucar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="usaIngrediente"/>
+        <NamedIndividual IRI="UsoHarinaBizcocho"/>
+        <NamedIndividual IRI="I3_Harina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="usaIngrediente"/>
+        <NamedIndividual IRI="UsoHarinaPizza"/>
+        <NamedIndividual IRI="I3_Harina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="usaIngrediente"/>
+        <NamedIndividual IRI="UsoHuevoBizcocho"/>
+        <NamedIndividual IRI="I2_Huevo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="usaIngrediente"/>
+        <NamedIndividual IRI="UsoHuevoTortilla"/>
+        <NamedIndividual IRI="I2_Huevo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="usaIngrediente"/>
+        <NamedIndividual IRI="UsoLecheBizcocho"/>
+        <NamedIndividual IRI="I9_Leche"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="usaIngrediente"/>
+        <NamedIndividual IRI="UsoTomatePasta"/>
+        <NamedIndividual IRI="I1_Tomate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="usaIngrediente"/>
+        <NamedIndividual IRI="UsoTomateSalmorejo"/>
+        <NamedIndividual IRI="I1_Tomate"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreIngrediente"/>
+        <NamedIndividual IRI="I1_Tomate"/>
+        <Literal>Tomate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreIngrediente"/>
+        <NamedIndividual IRI="I2_Huevo"/>
+        <Literal>Huevo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreIngrediente"/>
+        <NamedIndividual IRI="I3_Harina"/>
+        <Literal>Harina de Trigo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreIngrediente"/>
+        <NamedIndividual IRI="I4_Pollo"/>
+        <Literal>Pollo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreIngrediente"/>
+        <NamedIndividual IRI="I5_Lechuga"/>
+        <Literal>Lechuga</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreIngrediente"/>
+        <NamedIndividual IRI="I6_Queso"/>
+        <Literal>Queso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreIngrediente"/>
+        <NamedIndividual IRI="I7_Arroz"/>
+        <Literal>Arroz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreIngrediente"/>
+        <NamedIndividual IRI="I8_Azucar"/>
+        <Literal>Azúcar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreIngrediente"/>
+        <NamedIndividual IRI="I9_Leche"/>
+        <Literal>Leche</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#N_comensales"/>
+        <NamedIndividual IRI="R1_Salmorejo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreReceta"/>
+        <NamedIndividual IRI="R1_Salmorejo"/>
+        <Literal>Salmorejo de la abuela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreReceta"/>
+        <NamedIndividual IRI="R2_Tortilla"/>
+        <Literal>Tortilla</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreReceta"/>
+        <NamedIndividual IRI="R3_PastaConTomate"/>
+        <Literal>Pasta con tomate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreReceta"/>
+        <NamedIndividual IRI="R5_Bizcocho"/>
+        <Literal>Bizcocho</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NombreReceta"/>
+        <NamedIndividual IRI="R6_Pizza"/>
+        <Literal>Pizza</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cantidad"/>
+        <NamedIndividual IRI="UsoAzucarBizcocho"/>
+        <Literal>200 gramos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cantidad"/>
+        <NamedIndividual IRI="UsoHarinaBizcocho"/>
+        <Literal>500 gramos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cantidad"/>
+        <NamedIndividual IRI="UsoHarinaPizza"/>
+        <Literal>250 gramos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cantidad"/>
+        <NamedIndividual IRI="UsoHuevoBizcocho"/>
+        <Literal>3 unidades</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cantidad"/>
+        <NamedIndividual IRI="UsoHuevoTortilla"/>
+        <Literal>4 unidades</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cantidad"/>
+        <NamedIndividual IRI="UsoLecheBizcocho"/>
+        <Literal>250 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cantidad"/>
+        <NamedIndividual IRI="UsoTomatePasta"/>
+        <Literal>100 gramos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cantidad"/>
+        <NamedIndividual IRI="UsoTomateSalmorejo"/>
+        <Literal>500 gramos</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="usaIngrediente"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#evitaIngrediente"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#preferenciasCliente"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#propiedadesReceta"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneUsoIngrediente"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="usaIngrediente"/>
+        <Class IRI="UsoIngrediente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#evitaIngrediente"/>
+        <Class IRI="#Cliente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preferenciasCliente"/>
+        <Class IRI="#Cliente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#propiedadesReceta"/>
+        <Class IRI="#Receta"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneUsoIngrediente"/>
+        <Class IRI="#Receta"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="usaIngrediente"/>
+        <Class IRI="#Ingrediente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#evitaIngrediente"/>
+        <Class IRI="#Ingrediente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferenciasCliente"/>
+        <Class IRI="#Propiedades"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#propiedadesReceta"/>
+        <Class IRI="#Propiedades"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneUsoIngrediente"/>
+        <Class IRI="UsoIngrediente"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Calorias"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Cantidad"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Dificultad"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Edad"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Fibra"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Grasas"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#N_comensales"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#NombreCliente"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#NombreIngrediente"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Peso"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Picante"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Proteínas"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#SinGluten"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Vegana"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Vegetariana"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Calorias"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Cantidad"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Dificultad"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Edad"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Fibra"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Grasas"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#N_comensales"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#NombreCliente"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#NombreIngrediente"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#NombreReceta"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Peso"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Picante"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Proteínas"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#SinGluten"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Vegana"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Vegetariana"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Calorias"/>
+        <Class IRI="#Receta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cantidad"/>
+        <Class IRI="UsoIngrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Dificultad"/>
+        <Class IRI="#Receta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Edad"/>
+        <Class IRI="#Cliente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Fibra"/>
+        <Class IRI="#Receta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Grasas"/>
+        <Class IRI="#Receta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#N_comensales"/>
+        <Class IRI="#Receta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NombreCliente"/>
+        <Class IRI="#Cliente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NombreIngrediente"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NombreReceta"/>
+        <Class IRI="#Receta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Peso"/>
+        <Class IRI="#Cliente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Picante"/>
+        <Class IRI="#Propiedades"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Proteínas"/>
+        <Class IRI="#Receta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SinGluten"/>
+        <Class IRI="#Propiedades"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Vegana"/>
+        <Class IRI="#Propiedades"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Vegetariana"/>
+        <Class IRI="#Propiedades"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Calorias"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cantidad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Dificultad"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Edad"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Fibra"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Grasas"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#N_comensales"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NombreCliente"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NombreIngrediente"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NombreReceta"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Peso"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:double"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Picante"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Proteínas"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SinGluten"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Vegana"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Vegetariana"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
