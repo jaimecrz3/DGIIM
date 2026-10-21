@@ -1,58 +1,76 @@
-# DGIIM — Computer Engineering & Mathematics (UGR)
+# Mathematics & Computer Science — University of Granada
 
-This repository contains a curated selection of coursework projects, assignments, and practical labs from the **Double Degree in Computer Engineering and Mathematics** at the **University of Granada (UGR)**.
+Selected implementations, experiments and projects from the five-year **Double Degree in Mathematics and Computer Science** at the **University of Granada, Spain**, including exchange coursework at the University of Salerno.
 
-The content is organized primarily **by academic year** and (where applicable) **by specialization/track**.
+This archive connects mathematical modelling with software implementation: optimization, machine learning, artificial intelligence, algorithms, numerical image processing, systems and databases. The Intelligent Computing and Systems track and third-year AI submissions are the main portfolio entry points.
 
-## Quick navigation
+## Featured projects
 
-- **Second year:** [`SegundoCurso/`](./SegundoCurso/)
-- **Third year (UGR):** [`TercerCurso (UGR)/`](./TercerCurso%28UGR%29/)
-- **Third year (University of Salerno):** [`TercerCurso (Salerno)/`](./TercerCurso%28Salerno%29/)
-- **Specialization — Computation & Intelligent Systems:** [`Mención – Computación y Sistemas Inteligentes/`](./Menci%C3%B3n-ComputacionYSistemasInteligentes/)
-- **Fourth year — Computer Graphics labs:** [`CuartoCurso/InformaticaGrafica/practicas/`](./CuartoCurso/InformaticaGrafica/practicas/)
+### [Minimum Differential Dispersion](intelligent-computing-and-systems/metaheuristics/minimum-differential-dispersion/)
 
-> Note: some folders may contain additional substructure by course, practice session, or project.
+Select subsets whose pairwise distance sums are balanced. C++ implementations cover local search, genetic and memetic algorithms, simulated annealing, iterated search and GRASP, with benchmark inputs and recorded experiment tables.
 
-## Repository goals
+**Approach:** shared optimization interfaces and seeded fitness/time comparisons. **Evidence:** four saved result tables; the project README explains the active benchmark configuration and how to avoid overwriting results.
 
-- Keep a clean archive of university work with a consistent layout
-- Make projects easy to browse (course → practice/project → code/results)
-- Preserve reproducibility whenever possible (instructions, scripts, configuration files)
+**Topics:** combinatorial optimization · stochastic search · experimental evaluation  
+**Tech:** C++ · CMake
 
-## How to use this repository
+### [Machine Learning on Sensor Data](intelligent-computing-and-systems/machine-learning/)
 
-1. **Browse by year / track** using the links above.
-2. Each course or project folder typically contains:
-   - source code and/or notebooks,
-   - data/config files (when applicable),
-   - and documentation (README, report, or notes).
-3. If a project includes a build system, you will usually find one of:
-   - `Makefile`
-   - `CMakeLists.txt`
-   - IDE project files
-   - or a `requirements.txt` / environment notes (for Python projects)
+Notebook workflows for meat-quality classification and electronic-tongue pH regression, alongside clustering, association rules and neural-network experiments.
 
-### Running projects
-Because this is a multi-project repository, **there is no single global “run” command**. Instead:
-- open the specific project folder and follow its local instructions (README/report/comments),
-- or inspect the build/run files in that directory.
+**Approach:** exploratory analysis, preprocessing, model selection and validation/test evaluation. **Recorded result:** pH regression with RandomForest reports test **R² ≈ 0.9114** in the supervised-learning notebook. Deep-learning work includes an MNIST convolutional autoencoder.
 
-## Notes on academic integrity
+**Topics:** supervised learning · clustering · representation learning  
+**Tech:** Python · scikit-learn · pandas · TensorFlow/Keras
 
-This repository is shared for **learning and portfolio purposes**.  
-If you are currently enrolled in the same courses, **do not copy or submit this work as your own**—use it only as a reference to understand concepts and approaches.
+### [Deep Learning for Computer Vision](intelligent-computing-and-systems/computer-vision/P2/)
 
-## Disclaimer
+CNN classification, radiographic age regression and Grad-CAM explanations, documented in three notebooks with saved outputs.
 
-Some projects may depend on:
-- university-provided assets, templates, or datasets,
-- specific OS/toolchain versions,
-- or course-specific execution constraints.
+**Approach:** compare scratch training, frozen pretrained features and fine-tuning. **Recorded result:** the ResNet34 fine-tuning evaluation reports test **MAE 5.8631** and **R² 0.8570** for the notebook's age-regression task.
 
-If something does not run out-of-the-box, check the project folder for instructions or configuration files.
+**Topics:** transfer learning · CNNs · visual explanations  
+**Tech:** Python · PyTorch/fastai · torchvision
 
-## Contact
+### [Feature Matching and Image Stitching](intelligent-computing-and-systems/computer-vision/P3/)
 
-If you have questions about a specific project, feel free to open an issue or contact me via my GitHub profile.
+Harris corner detection, SIFT/texture/deep descriptor matching and homography-based mosaics.
 
+**Approach:** tune detection and suppression parameters, match image features and register images. **Recorded result:** the notebook obtains **503 Harris keypoints** on the assignment image, within its target range of 475–525.
+
+**Topics:** image geometry · feature extraction · registration  
+**Tech:** Python · OpenCV · scikit-image · TensorFlow/Keras
+
+### [Parchis Game-Playing Agent](year-3-ugr/artificial-intelligence/parchis-agent/)
+
+Third-year AI integration submission for selecting board-game moves under a search budget.
+
+**Approach:** minimax, alpha-beta pruning, heuristic evaluation and a dynamic-depth variant. The [companion rescue agents](year-3-ugr/artificial-intelligence/rescue-agent/) implement sensor-driven simulation behaviors. Both require the original course engines; no win-rate or simulation-score claims are made.
+
+**Topics:** adversarial search · decision-making · autonomous agents  
+**Tech:** C++
+
+## Coursework
+
+The original academic hierarchy is retained. Only years represented in this archive are listed.
+
+| Academic group | Courses |
+|---|---|
+| [Second year](year-2/) | [Algorithm design](year-2/algorithm-design/), [data structures](year-2/data-structures/), [object-oriented programming](year-2/object-oriented-programming/) |
+| [Third year — Granada](year-3-ugr/) | [Artificial intelligence](year-3-ugr/artificial-intelligence/), [server engineering](year-3-ugr/server-engineering/) |
+| [Third year — Salerno](year-3-salerno/) | [Software engineering](year-3-salerno/software-engineering/), [concurrent/parallel programming](year-3-salerno/concurrent-parallel-and-cloud-programming/), [databases](year-3-salerno/databases/), [curves and surfaces](year-3-salerno/curves-and-surfaces/), [differential equations](year-3-salerno/differential-equations/), [probability](year-3-salerno/probability/), [topology](year-3-salerno/topology/) |
+| [Fourth year](year-4/) | [Computer graphics](year-4/computer-graphics/) |
+| [Intelligent Computing and Systems](intelligent-computing-and-systems/) | [Machine learning](intelligent-computing-and-systems/machine-learning/), [metaheuristics](intelligent-computing-and-systems/metaheuristics/), [computer vision](intelligent-computing-and-systems/computer-vision/), [knowledge engineering](intelligent-computing-and-systems/knowledge-engineering/), [intelligent systems techniques](intelligent-computing-and-systems/intelligent-systems-techniques/), [language processors](intelligent-computing-and-systems/language-processors/), [human-computer interaction](intelligent-computing-and-systems/human-computer-interaction/) |
+
+Other substantial submissions include [Java heuristic-search agents](intelligent-computing-and-systems/intelligent-systems-techniques/heuristic-search/), [MiniZinc optimization models](intelligent-computing-and-systems/intelligent-systems-techniques/constraint-programming/), [PDDL planning](intelligent-computing-and-systems/intelligent-systems-techniques/automated-planning/), a [collaborative CLIPS recipe system](intelligent-computing-and-systems/knowledge-engineering/Pr%C3%A1cticas/entrega2/p6/), a [Unity/Ultraleap planetarium](intelligent-computing-and-systems/human-computer-interaction/P1/) and a [collaborative complex-number calculator](year-3-salerno/software-engineering/scientific-calculator-complex-numbers/).
+
+## Technical areas covered
+
+Algorithms and data structures; artificial intelligence; machine learning and computer vision; combinatorial optimization; constraint programming and automated planning; concurrent/parallel programming; monitoring and systems; databases; computer graphics; geometry, differential equations, probability and topology.
+
+## About this repository
+
+This is historical academic work. Coding conventions, dependencies and APIs reflect the original assignments; a portfolio refresh does not imply a modernization of their algorithms or runtime environments. Reports and notebooks retain their original languages, and internal filenames are preserved where required by code, frameworks, datasets or attribution. English READMEs provide navigation and technical context.
+
+Results quoted above are **saved experiment outputs**, with their scope and prerequisites explained in the linked documentation. There is no global build command. Follow each project's README; some submissions need external datasets, hardware or course frameworks. Collaborative work and third-party materials retain their original credits. Use the archive for learning and review, not for submitting someone else's coursework.
