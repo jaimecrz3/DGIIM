@@ -1,5 +1,5 @@
-# Refactor Evidence
+# Archive Integrity
 
-[portfolio-migration.tsv](portfolio-migration.tsv) records every file tracked at the pre-refactor baseline, its final path, original Git blob ID and disposition. `preserved` files retain their academic contents; `documentation-rewritten` identifies the six original READMEs; `removed-build-artifact` identifies disposable compiler/CMake files.
+[portfolio-migration.tsv](portfolio-migration.tsv) records the original academic archive's file paths, current paths, Git blob IDs and dispositions. It provides a content baseline for checking that historical coursework remains intact. `preserved` identifies retained academic contents; `documentation-rewritten` identifies the six original READMEs; `removed-build-artifact` identifies disposable compiler/CMake files excluded from the archive.
 
-The manifest covers the original archive, not newly added documentation or the pre-existing untracked Android repository. Run the [validation script](../tools/validate-portfolio.ps1) to check retained content and local documentation links. See the [refactor report](../PORTFOLIO_REFACTOR_REPORT.md) for limitations and the [migration plan](../PORTFOLIO_REFACTOR_PLAN.md) for decisions.
+The baseline covers the original tracked files, rather than subsequent documentation or the local untracked Android repository. Run the [validation script](../tools/validate-portfolio.ps1) to check retained contents, local documentation links and notebook JSON. Execution prerequisites and limitations are documented in each project's README.
