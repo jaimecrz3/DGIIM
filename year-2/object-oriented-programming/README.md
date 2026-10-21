@@ -4,7 +4,7 @@ DeepSpace coursework in Java and Ruby, accompanied by a class diagram. Original 
 
 ## Contents
 
-- [deepspace-master](deepspace-master/)
+- [DeepSpace](deepspace/)
 - [DiagramaClases.pdf](DiagramaClases.pdf)
 
 ## Technologies and formats

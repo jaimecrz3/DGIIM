@@ -4,10 +4,10 @@ Lex/Yacc and C coursework spanning lexical, syntactic and semantic processing an
 
 ## Contents
 
-- [Practica2](Practica2/)
-- [Practica3](Practica3/)
-- [Practica4](Practica4/)
-- [Practica5](Practica5/)
+- [Language Processing Assignment 2](assignment-2/)
+- [Language Processing Assignment 3](assignment-3/)
+- [Language Processing Assignment 4](assignment-4/)
+- [Language Processing Assignment 5](assignment-5/)
 - [Memoria_Practicas_PL.pdf](Memoria_Practicas_PL.pdf)
 - [Practica1.pdf](Practica1.pdf)
 

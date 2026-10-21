@@ -4,8 +4,8 @@ Rule-based CLIPS assignments, recipe recommendation modules, a car-recommendatio
 
 ## Contents
 
-- [Prácticas](Pr%C3%A1cticas/)
-- [Teoria](Teoria/)
+- [Knowledge Engineering Assignments](assignments/)
+- [Knowledge Engineering Written Coursework](written-coursework/)
 - [Seminario2-CorzoGaldoJaime.pdf](Seminario2-CorzoGaldoJaime.pdf)
 
 ## Technologies and formats

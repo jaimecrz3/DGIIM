@@ -4,10 +4,10 @@ C laboratory submissions with MPI communication exercises, latency measurement a
 
 ## Contents
 
-- [lab4](lab4/)
-- [lab5](lab5/)
-- [lab6](lab6/)
-- [lab8](lab8/)
+- [Parallel Programming Laboratory 4](lab4/)
+- [Parallel Programming Laboratory 5](lab5/)
+- [Parallel Programming Laboratory 6](lab6/)
+- [Parallel Programming Laboratory 8](lab8/)
 - [NeuGraph.pdf](NeuGraph.pdf)
 
 ## Technologies and formats

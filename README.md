@@ -6,7 +6,7 @@ This archive connects mathematical modelling with software implementation: optim
 
 ## Featured projects
 
-### [Minimum Differential Dispersion](intelligent-computing-and-systems/metaheuristics/minimum-differential-dispersion/)
+### [](intelligent-computing-and-systems/metaheuristics/minimum-differential-dispersion/)
 
 Select subsets whose pairwise distance sums are balanced. C++ implementations cover local search, genetic and memetic algorithms, simulated annealing, iterated search and GRASP, with benchmark inputs and recorded experiment tables.
 
@@ -15,7 +15,7 @@ Select subsets whose pairwise distance sums are balanced. C++ implementations co
 **Topics:** combinatorial optimization · stochastic search · experimental evaluation  
 **Tech:** C++ · CMake
 
-### [Machine Learning on Sensor Data](intelligent-computing-and-systems/machine-learning/)
+### [Machine Learning](intelligent-computing-and-systems/machine-learning/)
 
 Notebook workflows for meat-quality classification and electronic-tongue pH regression, alongside clustering, association rules and neural-network experiments.
 
@@ -24,7 +24,7 @@ Notebook workflows for meat-quality classification and electronic-tongue pH regr
 **Topics:** supervised learning · clustering · representation learning  
 **Tech:** Python · scikit-learn · pandas · TensorFlow/Keras
 
-### [Deep Learning for Computer Vision](intelligent-computing-and-systems/computer-vision/P2/)
+### [Deep Learning for Computer Vision](intelligent-computing-and-systems/computer-vision/deep-learning/)
 
 CNN classification, radiographic age regression and Grad-CAM explanations, documented in three notebooks with saved outputs.
 
@@ -33,7 +33,7 @@ CNN classification, radiographic age regression and Grad-CAM explanations, docum
 **Topics:** transfer learning · CNNs · visual explanations  
 **Tech:** Python · PyTorch/fastai · torchvision
 
-### [Feature Matching and Image Stitching](intelligent-computing-and-systems/computer-vision/P3/)
+### [Feature Matching and Image Stitching](intelligent-computing-and-systems/computer-vision/feature-matching-and-stitching/)
 
 Harris corner detection, SIFT/texture/deep descriptor matching and homography-based mosaics.
 
@@ -46,7 +46,7 @@ Harris corner detection, SIFT/texture/deep descriptor matching and homography-ba
 
 Third-year AI integration submission for selecting board-game moves under a search budget.
 
-**Approach:** minimax, alpha-beta pruning, heuristic evaluation and a dynamic-depth variant. The [companion rescue agents](year-3-ugr/artificial-intelligence/rescue-agent/) implement sensor-driven simulation behaviors. Both require the original course engines; no win-rate or simulation-score claims are made.
+**Approach:** minimax, alpha-beta pruning, heuristic evaluation and a dynamic-depth variant. The [Rescue Simulation Agents](year-3-ugr/artificial-intelligence/rescue-agent/) implement sensor-driven simulation behaviors. Both require the original course engines; no win-rate or simulation-score claims are made.
 
 **Topics:** adversarial search · decision-making · autonomous agents  
 **Tech:** C++
@@ -63,7 +63,7 @@ The original academic hierarchy is retained. Only years represented in this arch
 | [Fourth year](year-4/) | [Computer graphics](year-4/computer-graphics/) |
 | [Intelligent Computing and Systems](intelligent-computing-and-systems/) | [Machine learning](intelligent-computing-and-systems/machine-learning/), [metaheuristics](intelligent-computing-and-systems/metaheuristics/), [computer vision](intelligent-computing-and-systems/computer-vision/), [knowledge engineering](intelligent-computing-and-systems/knowledge-engineering/), [intelligent systems techniques](intelligent-computing-and-systems/intelligent-systems-techniques/), [language processors](intelligent-computing-and-systems/language-processors/), [human-computer interaction](intelligent-computing-and-systems/human-computer-interaction/) |
 
-Other substantial submissions include [Java heuristic-search agents](intelligent-computing-and-systems/intelligent-systems-techniques/heuristic-search/), [MiniZinc optimization models](intelligent-computing-and-systems/intelligent-systems-techniques/constraint-programming/), [PDDL planning](intelligent-computing-and-systems/intelligent-systems-techniques/automated-planning/), a [collaborative CLIPS recipe system](intelligent-computing-and-systems/knowledge-engineering/Pr%C3%A1cticas/entrega2/p6/), a [Unity/Ultraleap planetarium](intelligent-computing-and-systems/human-computer-interaction/P1/) and a [collaborative complex-number calculator](year-3-salerno/software-engineering/scientific-calculator-complex-numbers/).
+Other substantial submissions include [Java heuristic-search agents](intelligent-computing-and-systems/intelligent-systems-techniques/heuristic-search/), [MiniZinc optimization models](intelligent-computing-and-systems/intelligent-systems-techniques/constraint-programming/), [PDDL planning](intelligent-computing-and-systems/intelligent-systems-techniques/automated-planning/), a [collaborative CLIPS recipe system](intelligent-computing-and-systems/knowledge-engineering/assignments/submission-2/recipe-recommendation/), a [Unity/Ultraleap planetarium](intelligent-computing-and-systems/human-computer-interaction/gesture-planetarium/) and a [collaborative complex-number calculator](year-3-salerno/software-engineering/scientific-calculator-complex-numbers/).
 
 ## Technical areas covered
 

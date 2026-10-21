@@ -4,9 +4,9 @@ Three submissions on heuristic search, constraint programming and automated plan
 
 ## Contents
 
-- [automated-planning](automated-planning/)
-- [constraint-programming](constraint-programming/)
-- [heuristic-search](heuristic-search/)
+- [Automated Planning Models](automated-planning/)
+- [Constraint Programming Models](constraint-programming/)
+- [Heuristic Search Agents](heuristic-search/)
 
 ## Technologies and formats
 

@@ -4,7 +4,7 @@ A collaborative complex-number scientific calculator, with Java source, JUnit te
 
 ## Contents
 
-- [scientific-calculator-complex-numbers](scientific-calculator-complex-numbers/)
+- [Complex-Number Scientific Calculator](scientific-calculator-complex-numbers/)
 
 ## Technologies and formats
 

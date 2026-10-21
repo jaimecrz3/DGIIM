@@ -8,7 +8,7 @@ Navigate game states using depth-first search, A*, RTA* and LRTA*-k. Implementat
 
 ## Evidence and conclusions
 
-The [original report](CorzoGaldoJaime-Memoria-P1-TSI.pdf) and [AI interaction disclosure](CorzoGaldoJaime-PromptsRespuestasIA-P1-TSI.pdf) are preserved. No standalone machine-readable benchmark output is included; no runtime or optimality comparison is asserted here. This submission exposes different search strategies for code-level comparison.
+The [original report](final-report.pdf) and [AI interaction disclosure](ai-assistance-disclosure.pdf) are preserved. No standalone machine-readable benchmark output is included; no runtime or optimality comparison is asserted here. This submission exposes different search strategies for code-level comparison.
 
 ## Running the project
 

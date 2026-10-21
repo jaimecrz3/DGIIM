@@ -9,7 +9,7 @@ The `.mzn` submissions model a logic puzzle, lexicographic multiobjective knapsa
 ## Implementation and evidence
 
 - `Ejercicio1a.mzn` through `Ejercicio7.mzn`: exercise models and variants.
-- [Original report](CorzoGaldoJaime-Memoria-P2-TSI.pdf): submitted discussion.
+- [Original report](final-report.pdf): submitted discussion.
 
 No solver logs are archived separately. Feasibility, optimality and execution times have not been independently re-established during this refactor.
 

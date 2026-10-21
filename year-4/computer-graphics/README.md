@@ -4,7 +4,7 @@ Graphics coursework with C++ source, images, PLY models, exam variants and platf
 
 ## Contents
 
-- [practicas](practicas/)
+- [Graphics Implementations](assignments/)
 
 ## Technologies and formats
 

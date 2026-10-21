@@ -4,10 +4,10 @@ Planetarium/museum coursework with a Unity hand-interaction prototype, mobile-ap
 
 ## Contents
 
-- [P1](P1/)
-- [P2](P2/)
-- [P3](P3/)
-- [Memoria Museo.pdf](Memoria%20Museo.pdf)
+- [Gesture-Controlled Planetarium](gesture-planetarium/)
+- [Mobile Museum Companion](mobile-companion/)
+- [Museum Voice Assistant](voice-assistant/)
+- [Memoria Museo.pdf](museum-design-report.pdf)
 
 ## Technologies and formats
 

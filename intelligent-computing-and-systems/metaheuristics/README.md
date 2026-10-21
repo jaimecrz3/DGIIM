@@ -4,8 +4,8 @@ C++ minimum differential dispersion implementations, benchmark inputs, recorded 
 
 ## Contents
 
-- [minimum-differential-dispersion](minimum-differential-dispersion/)
-- [tools](tools/)
+- [](minimum-differential-dispersion/)
+- [Randomness and Timing Examples](tools/)
 - [Practica1_MDD.pdf](Practica1_MDD.pdf)
 - [Práctica2_MDD.pdf](Pr%C3%A1ctica2_MDD.pdf)
 - [Práctica3_MDD_.pdf](Pr%C3%A1ctica3_MDD_.pdf)

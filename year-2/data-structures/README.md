@@ -4,10 +4,10 @@ Four C++ assignment packages covering image abstractions, stacks and queues, non
 
 ## Contents
 
-- [Ej01_Imagenes-master](Ej01_Imagenes-master/)
-- [Ej02_Pilas_y_Colas-master](Ej02_Pilas_y_Colas-master/)
-- [Ej03_TDAs_No_Lineales-master](Ej03_TDAs_No_Lineales-master/)
-- [p04_juego_letras-master](p04_juego_letras-master/)
+- [Image Abstract Data Type](image-adt/)
+- [Stacks and Queues](stacks-and-queues/)
+- [Non-Linear Abstract Data Types](non-linear-data-structures/)
+- [Word Game](word-game/)
 
 ## Technologies and formats
 

@@ -4,9 +4,9 @@ Submitted documents, monitoring configuration, a Grafana dashboard export and de
 
 ## Contents
 
-- [Bloque1Jaime](Bloque1Jaime/)
-- [Bloque2Jaime](Bloque2Jaime/)
-- [Entregas ISE-JCG](Entregas%20ISE-JCG/)
+- [Operating Systems and Services Exercises](operating-systems-and-services/)
+- [Monitoring Exercises](monitoring/)
+- [Original Submission Archives](submission-archives/)
 
 ## Technologies and formats
 

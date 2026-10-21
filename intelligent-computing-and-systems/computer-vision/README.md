@@ -4,9 +4,9 @@ Notebooks implementing filtering, image pyramids, CNN experiments, transfer lear
 
 ## Contents
 
-- [P1](P1/)
-- [P2](P2/)
-- [P3](P3/)
+- [Filtering and Multiscale Images](filtering-and-pyramids/)
+- [Deep Learning for Computer Vision](deep-learning/)
+- [Feature Matching and Image Stitching](feature-matching-and-stitching/)
 
 ## Technologies and formats
 

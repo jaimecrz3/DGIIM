@@ -8,7 +8,7 @@ Model characters, locations, resources and actions declaratively. Successive `do
 
 ## Results and conclusions
 
-The [original report](CorzoGaldoJaime-Memoria-P3-TSI.pdf) accompanies the models. Standalone generated plans and solver timing logs are not included. The source demonstrates increasingly expressive planning formulations; no optimal-plan or speed claim is made here.
+The [original report](final-report.pdf) accompanies the models. Standalone generated plans and solver timing logs are not included. The source demonstrates increasingly expressive planning formulations; no optimal-plan or speed claim is made here.
 
 ## Running the models
 

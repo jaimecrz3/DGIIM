@@ -4,8 +4,8 @@ Third-year agent implementations for a rescue simulation and the Parchis board g
 
 ## Contents
 
-- [parchis-agent](parchis-agent/)
-- [rescue-agent](rescue-agent/)
+- [Parchis Game-Playing Agent](parchis-agent/)
+- [Rescue Simulation Agents](rescue-agent/)
 
 ## Technologies and formats
 

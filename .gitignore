@@ -1,0 +1,28 @@
+# Rebuildable compiler and Python artifacts.
+*.o
+*.o.d
+*.obj
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# CMake-generated metadata; retain CMakeLists.txt and hand-written Makefiles.
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+cmake-build-*/
+.cmake/api/
+/intelligent-computing-and-systems/metaheuristics/minimum-differential-dispersion/Makefile
+/year-4/computer-graphics/assignments/builds/linux/cmake/*
+!/year-4/computer-graphics/assignments/builds/linux/cmake/.gitignore
+
+# Local Unity caches. Assets, Packages and ProjectSettings remain tracked.
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# The pre-existing local Android repository is outside this archive's scope.
+/intelligent-computing-and-systems/human-computer-interaction/mobile-companion/Planetario_APP/

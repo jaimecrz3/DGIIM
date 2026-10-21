@@ -4,9 +4,9 @@ C++ implementations and assignment reports covering divide and conquer, greedy m
 
 ## Contents
 
-- [divide-and-conquer](divide-and-conquer/)
-- [graph-algorithms](graph-algorithms/)
-- [greedy-algorithms](greedy-algorithms/)
+- [Divide-and-Conquer Algorithms](divide-and-conquer/)
+- [Graph Search Algorithms](graph-algorithms/)
+- [Greedy Algorithms](greedy-algorithms/)
 - [practica3_greedy.pdf](practica3_greedy.pdf)
 - [practica4_grafos.pdf](practica4_grafos.pdf)
 - [practica5_dinamica.pdf](practica5_dinamica.pdf)

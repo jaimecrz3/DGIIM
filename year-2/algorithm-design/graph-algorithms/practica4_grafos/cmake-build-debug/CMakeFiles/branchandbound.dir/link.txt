@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/branchandbound.dir/branchandbound.cpp.o -o branchandbound 
