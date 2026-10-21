@@ -1,31 +1,41 @@
 # Deep Learning for Computer Vision
 
-CNN classification, transfer learning for radiographic age regression, and visual explanations of image classifiers.
+Python experiments on CNN classification, transfer learning for radiographic age regression and Grad-CAM visualization, documented in three notebooks.
 
-## Approach and implementation
+## CNN configuration comparisons
 
-- [CNN experiments](cnn-classification.ipynb): BaseNet and improvements on a 50-class CIFAR100 subset; includes CPU/GPU comparison and fully connected layer experiments.
-- [Transfer learning](transfer-learning.ipynb): ResNet34 trained from scratch, used as a frozen feature extractor, and fine-tuned for the SPR X-Ray Age Prediction task.
-- [Explainability](grad-cam.ipynb): Grad-CAM and EfficientNet-B0, with CUB bird classification examples.
+[CNN notebook](cnn-classification.ipynb): BaseNet, a variant without fully connected layers and a refined configuration on a 50-class CIFAR100 subset.
 
-## Recorded results
+| Configuration | Saved test accuracy | Macro-F1 |
+|---|---:|---:|
+| BaseNet | 36.16% | 0.3545 |
+| Without fully connected layers | 19.70% | 0.1586 |
+| Refined configuration | 65.32% | 0.6504 |
 
-These are saved notebook outputs, not new runs:
+The refined configuration changes architecture and training choices together. These evaluations support a comparison of the archived configurations, not a causal attribution to one change.
 
-| Experiment | Recorded test result | Evidence |
-|---|---|---|
-| CIFAR100 subset, final improvement evaluation | Accuracy 0.6532; F1 0.6504 | CNN notebook, final test evaluation |
-| ResNet34, scratch evaluation | MAE 7.9693; R² 0.7277 | Transfer notebook, test output |
-| ResNet34, frozen-feature evaluation | MAE 6.6329; R² 0.8176 | Transfer notebook, test output |
-| ResNet34, fine-tuning evaluation | MAE 5.8631; R² 0.8570 | Transfer notebook, test output |
-| Bird classifier | Accuracy 0.7447 | Explainability notebook, test output |
+## Transfer learning
 
-The archived age-regression evaluations favor fine-tuning over scratch training for this experiment. These results do not establish general performance across datasets or seeds. The transfer notebook also contains a later classification-style evaluation; it should not be confused with the regression results above.
+[ResNet34 notebook](transfer-learning.ipynb): compare training from scratch, frozen pretrained features and fine-tuning for the SPR X-Ray Age Prediction task.
 
-## Running the notebooks
+| Training strategy | Saved test MAE | Saved test R² |
+|---|---:|---:|
+| From scratch | 7.9693 | 0.7277 |
+| Frozen features | 6.6329 | 0.8176 |
+| Fine-tuning | 5.8631 | 0.8570 |
 
-The code uses Python, PyTorch/fastai, torchvision and supporting numerical/plotting libraries. Inspect each notebook's setup and import cells; obtain its datasets and pretrained weights and restore the expected paths. Saved experiments use Colab/Linux paths. No dependency lockfile or verified end-to-end environment is included; training was not rerun during documentation.
+Fine-tuning has the lowest MAE of these saved evaluations. MAE is reported in the dataset's age-label units. A later age-classification experiment in the notebook is a separate formulation and is not part of this regression comparison.
+
+## Visual explanations
+
+[Grad-CAM notebook](grad-cam.ipynb): an EfficientNet-B0 classifier on CUB bird images, with saved attention-map examples. Its saved test accuracy is 74.47%; that score measures classification, not explanation faithfulness.
+
+## Environment and execution
+
+Python, PyTorch, fastai and torchvision, with notebook-specific numerical, plotting and CAM libraries. Read the setup/data-preparation cells first: some packages are version-pinned, external images or pretrained weights are required, and preparation cells remove or recreate downloaded-data folders. Original Colab/Linux paths remain. A complete locked environment and independently reproduced run are not supplied here.
+
+All numbers above are archived notebook outputs; they do not represent repeated-run estimates or performance across other datasets.
 
 ## Academic context
 
-**Course:** Computer Vision, Intelligent Computing and Systems track. **Student identified in notebooks:** Jaime Corzo Galdo. Double Degree in Mathematics and Computer Science, University of Granada. Original exercise text and credits are retained.
+Computer Vision, Intelligent Computing and Systems track, Double Degree in Mathematics and Computer Science, University of Granada. The notebooks identify Jaime Corzo Galdó and retain the course templates and credits.

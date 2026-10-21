@@ -1,19 +1,29 @@
 # Feature Matching and Image Stitching
 
-[Completed notebook](feature-matching-and-stitching.ipynb) implementing Harris corners, descriptor matching and homography-based panorama construction.
+A Python notebook implementing feature detection, descriptor matching and panorama construction through homography estimation.
+
+[Open the notebook](feature-matching-and-stitching.ipynb) for the code, saved figures and discussion.
 
 ## Approach
 
-Compare SIFT, Haralick texture descriptors and deep features; use feature correspondences for image registration and mosaics. The notebook includes ETSIIT and corridor panorama exercises, OpenCV keypoint visualization and non-maximum suppression via `corner_peaks`.
+- Harris corner responses and non-maximum suppression with `corner_peaks`.
+- SIFT, Haralick texture and pretrained ResNet50 patch descriptors.
+- Brute-force, mutual cross-check and Lowe ratio-test matching.
+- RANSAC homography estimation, composition into a common canvas and image warping.
+- ETSIIT and corridor panoramas, compared with OpenCV Stitcher.
 
-## Results and conclusions
+## Saved observations
 
-The Harris discussion records **503** detected keypoints with `min_distance = 7` and `threshold_rel = 0.15`, within the assignment's target range of 475–525. The parameter sweep documents how distance and threshold suppress weaker or neighboring detections. This is a result on that notebook image, not a general detector-accuracy measure. Saved figures remain embedded in the notebook.
+The Harris discussion records 503 keypoints at `min_distance = 7` and `threshold_rel = 0.15` on the assignment image. This is a parameter-setting observation, not a detector-accuracy measurement.
 
-## Running and technologies
+The notebook discussion favors SIFT correspondences over the tested texture and deep-patch descriptors on the example image pair. No ground-truth matching-accuracy score is reported.
 
-Python, OpenCV, NumPy, scikit-image, mahotas and TensorFlow/Keras (ResNet50 features). Restore images and any expected Colab/Drive paths using the notebook's loading cells. The original environment is not locked; execution was not repeated during this refactor.
+Saved mosaics and the final discussion compare the custom pipeline with OpenCV Stitcher. The discussion reports cleaner transitions from OpenCV, particularly for the corridor. It relates the custom pipeline's alignment difficulties to parallax and accumulated homography error, illustrating the limitations of the chosen geometric model.
+
+## Environment
+
+Python, OpenCV, NumPy, scikit-image, mahotas and TensorFlow/Keras. The notebook uses ResNet50 pretrained weights and external image inputs; inspect its loading cells and original Colab/Drive paths before execution. The archive retains saved outputs but does not supply a complete locked environment or an independently reproduced run.
 
 ## Academic context
 
-Computer Vision, Intelligent Computing and Systems track, Double Degree in Mathematics and Computer Science, University of Granada. The notebook names Jaime Corzo Galdo and retains the course template.
+Computer Vision, Intelligent Computing and Systems track, Double Degree in Mathematics and Computer Science, University of Granada. The notebook identifies Jaime Corzo Galdó and retains the original course template.

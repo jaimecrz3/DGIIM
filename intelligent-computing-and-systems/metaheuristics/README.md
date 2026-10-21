@@ -1,19 +1,33 @@
 # Metaheuristics
 
-C++ minimum differential dispersion implementations, benchmark inputs, recorded experiment tables and assignment PDFs.
+C++ implementations and saved experiments for minimum differential dispersion: select a fixed-size subset while minimizing the range of its elements' pairwise distance sums.
 
-## Contents
+## Implementation and experiments
 
-- [](minimum-differential-dispersion/)
-- [Randomness and Timing Examples](tools/)
-- [Practica1_MDD.pdf](Practica1_MDD.pdf)
-- [Práctica2_MDD.pdf](Pr%C3%A1ctica2_MDD.pdf)
-- [Práctica3_MDD_.pdf](Pr%C3%A1ctica3_MDD_.pdf)
+[Minimum Differential Dispersion](minimum-differential-dispersion/) includes greedy/random baselines, local search, genetic and memetic algorithms, simulated annealing, multistart search, iterated local search and GRASP. Source, benchmark inputs and result tables are retained together.
 
-## Technologies and formats
+The current runner lists 50 benchmark instances, defaults to five seeds and passes a 100,000-evaluation budget. Only Random is enabled in its archived configuration; running it does not regenerate every historical table.
 
-C++; CMake; Make; CSV/TSV.
+## Example from the saved results
 
-## Academic context
+For `GKD-b_50_n150_m45`, the trajectory-method table records:
 
-Double Degree in Mathematics and Computer Science, University of Granada. Original source, reports, templates and contributor credits are retained.
+| Method | Fitness (lower is better) | Time (ms) |
+|---|---:|---:|
+| ILS | 349.4902 | 100 |
+| GRASP with local search | 359.3395 | 127 |
+| GRASP without local search | 1208.4319 | 1 |
+
+Source: [results3.csv](minimum-differential-dispersion/results3.csv). These rows illustrate the quality/runtime trade-off for one instance and saved experimental setting. They do not establish a general ranking or transferable runtime guarantee. The `.csv` tables are tab-separated; decimal conventions vary between files.
+
+## Further material
+
+- [Implementation, full tables and build notes](minimum-differential-dispersion/)
+- [Assignment 1 document](Practica1_MDD.pdf)
+- [Assignment 2 document](Pr%C3%A1ctica2_MDD.pdf)
+- [Assignment 3 document](Pr%C3%A1ctica3_MDD_.pdf)
+- [Randomness and timing examples](tools/)
+
+**Tools:** C++, CMake.
+
+**Academic context:** Metaheuristics, Double Degree in Mathematics and Computer Science, University of Granada. Original source credits and benchmark names are retained.

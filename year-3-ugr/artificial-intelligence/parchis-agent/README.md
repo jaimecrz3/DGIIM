@@ -1,24 +1,26 @@
-# Parchis Game-Playing Agent
+# Parchis Search Agent
 
-C++ adversarial search for choosing moves in the course Parchis engine.
+C++ game-playing logic exploring adversarial search, move ordering and domain-specific heuristic evaluation in the course Parchis engine.
 
-## Objective and approach
+## Search and evaluation
 
-Select a piece and die by searching successor game states. [AIPlayer.cpp](AIPlayer.cpp) contains minimax, alpha-beta pruning and a dynamic-depth variant. Terminal states and depth limits delegate evaluation to a heuristic. The implementation also checks the engine's node budget. Constants set minimax depth to 4, alpha-beta depth to 8 and maximum dynamic depth to 10; these are configuration values, not measured performance.
+[AIPlayer.cpp](AIPlayer.cpp) contains minimax, alpha-beta pruning, a dynamic-depth variant and a move-ordered alpha-beta variant. Search uses heuristic evaluation at terminal/depth limits and includes checks against the engine's generated-node limit.
 
-## Implementation
+The heuristic variants consider progress toward the goal, pieces at home or at goal, safe positions, captures and board obstacles. The default constructor selects move-ordered alpha-beta with `miValoracion5`, whose scoring also includes endgame terms.
 
-- [AIPlayer.cpp](AIPlayer.cpp): search and decision logic.
-- [AIPlayer.h](AIPlayer.h): player and heuristic declarations.
+Named configuration values are minimax depth 4, alpha-beta depth 8 and a maximum-depth parameter of 10 for the dynamic variant. They describe the archived implementation, not measured search depth or playing strength.
 
-## Results and conclusions
+## Files
 
-No tournament logs, win rates or timing measurements accompany this submission. The code supports inspection of the trade-off between deeper search, heuristic evaluation and node limits; it does not establish playing strength empirically.
+- [AIPlayer.cpp](AIPlayer.cpp): search implementations, dispatch and heuristic definitions.
+- [AIPlayer.h](AIPlayer.h): player interface and heuristic declarations.
 
-## Running the project
+## Archived scope and execution
 
-This is an integration submission, not a standalone executable. It includes `../../include/model/Parchis.h`, which is absent here. Restore these files to the matching course engine's player source layout before compiling with that engine. No independent build command can be verified from this archive.
+This is an agent-source submission. The original engine headers, including `../../include/model/Parchis.h`, are absent, so it cannot be built or run independently from this directory. Restore the matching course engine and its expected source layout before attempting execution.
+
+The code includes informal observations about course opponents, but no match logs, win-rate study or timing benchmark accompanies it. Search and heuristic variants are available for inspection; no performance or correctness guarantee is established here.
 
 ## Academic context
 
-**Course:** Third-year Artificial Intelligence. **Degree:** Double Degree in Mathematics and Computer Science. **University:** University of Granada. Original course interfaces and source credits are preserved.
+Artificial Intelligence, Double Degree in Mathematics and Computer Science, University of Granada. Original course interfaces, supplied examples and source credits are retained.

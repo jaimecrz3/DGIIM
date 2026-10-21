@@ -1,35 +1,33 @@
 # Machine Learning
 
-Three completed notebooks covering supervised learning, clustering and association rules, deep classification and autoencoders. Saved outputs and discussion remain in the notebooks.
+Python notebooks investigating sensor-data prediction, clustering, association rules and neural-network models, with code, saved outputs and written interpretation.
 
-## Contents
+## Supervised learning on sensor data
 
-- [deep-learning.ipynb](deep-learning.ipynb)
-- [supervised-learning.ipynb](supervised-learning.ipynb)
-- [unsupervised-learning.ipynb](unsupervised-learning.ipynb)
+[Supervised-learning notebook](supervised-learning.ipynb): classify meat quality from gas-sensor measurements and estimate pH from electronic-tongue data. The workflow explores preprocessing, scaling, dimensionality reduction/feature selection, cross-validation and hyperparameter search. Models include logistic regression, SVC and random forests for classification, and Ridge, SVR and random forests for regression.
 
-## Technologies and formats
+Saved pH-regression test evaluations:
 
-Python; NumPy; pandas; scikit-learn; Matplotlib; TensorFlow/Keras.
+| Model | R² | MAE |
+|---|---:|---:|
+| Ridge | 0.8854 | 0.8250 |
+| SVR | 0.8844 | 0.8215 |
+| RandomForest | 0.9114 | 0.5545 |
+
+RandomForest has the highest test R² of these archived evaluations. Its validation R² is 0.9913, but the later validation subset was drawn after upstream processing and tuning. Preprocessing also precedes model cross-validation rather than being refitted within each fold. These are historical coursework evaluations, not independently validated performance estimates.
+
+## Unsupervised learning
+
+[Unsupervised-learning notebook](unsupervised-learning.ipynb): KMeans and DBSCAN on Old Faithful data, followed by Apriori and FP-Growth association mining. The DBSCAN search records training silhouette 0.5785 at eps 0.1 and min_samples 8. That value describes the archived search setting, including its noise-label handling, rather than predictive accuracy.
+
+## Neural networks and reconstruction
+
+[Deep-learning notebook](deep-learning.ipynb): Fashion-MNIST classifier comparisons and an MNIST convolutional autoencoder, including optimizer/loss experiments and latent-space sampling. The final saved AdamW/Huber autoencoder evaluation reports test MAE 0.0121 on pixels normalized to [0, 1]. This measures reconstruction error; sampled images are explored qualitatively.
+
+## Reading and running
+
+Start with each notebook's setup, imports and data-loading cells. Dependencies include NumPy, pandas, scikit-learn, Matplotlib and TensorFlow/Keras; association mining has additional notebook-specific imports. External data and original Colab/Drive paths must be restored. There is no complete locked environment or independently reproduced run supplied with this archive.
 
 ## Academic context
 
-Double Degree in Mathematics and Computer Science, University of Granada. Original source, reports, templates and contributor credits are retained.
-
-## Supervised learning: electronic sensor data
-
-[supervised-learning.ipynb](supervised-learning.ipynb) addresses meat-quality classification from gas sensors and pH regression from an electronic tongue. The implemented workflow includes exploratory analysis, scaling/feature selection, model selection and validation/test evaluation. Classification compares logistic regression, SVC and random forests; regression compares Ridge, SVR and random forests.
-
-**Recorded result:** the RandomForest regression test output reports **R² = 0.9114068976935454**, versus its validation R² of **0.9912636194671365**. The gap is a reason to distinguish validation fit from held-out performance. These are archived outputs for the notebook's pH experiment, not independently reproduced metrics.
-
-## Unsupervised learning: clustering and association rules
-
-[unsupervised-learning.ipynb](unsupervised-learning.ipynb) applies KMeans and DBSCAN to the Old Faithful clustering task, and Apriori/FP-Growth to frequent itemsets and association rules. It records silhouette measurements for multiple configurations, including **0.5785** in a best-configuration output. Consult the neighboring code and preprocessing choices before comparing it with other saved scores: silhouette depends on the data representation and cluster assignment.
-
-## Deep learning: classification and reconstruction
-
-[deep-learning.ipynb](deep-learning.ipynb) compares classifier architectures and trains an MNIST convolutional encoder/decoder. Its experiments explore optimizer/loss choices and reconstruct digit images, with latent-space sampling examples. The final saved autoencoder test output reports **MAE = 0.012067900970578194**. The accompanying discussion selects AdamW with Huber loss for the reconstruction experiment. Reconstruction error alone does not establish the quality of generated samples.
-
-## Running the notebooks
-
-Open the selected notebook in Jupyter or the original Colab environment and inspect its setup, imports and data-loading cells before execution. Dependencies vary: supervised learning uses scikit-learn/pandas/NumPy; deep learning adds TensorFlow/Keras; association mining has its own imports. Datasets and original external/Google Drive paths are not bundled into a reproducible environment. No pinned environment is supplied, and training was not rerun during this refactor. Notebook filenames were changed; cell source, saved outputs and original student/template credits were preserved byte-for-byte. The notebooks identify Jaime Corzo Galdo as the student.
+Machine Learning, Double Degree in Mathematics and Computer Science, University of Granada. The notebooks identify Jaime Corzo Galdó and retain the original course templates and credits.

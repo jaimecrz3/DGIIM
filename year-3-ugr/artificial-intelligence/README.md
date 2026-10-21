@@ -1,16 +1,14 @@
 # Artificial Intelligence
 
-Third-year agent implementations for a rescue simulation and the Parchis board game. These are integration submissions: the course engines are absent.
+Third-year C++ agent coursework covering adversarial game search and sensor-driven behavior in a rescue simulation.
 
-## Contents
+| Submission | Main implementation |
+|---|---|
+| [Parchis Search Agent](parchis-agent/) | Minimax, alpha-beta pruning, move ordering and domain-specific heuristic evaluation |
+| [Rescue Simulation Agents](rescue-agent/) | Rescuer and auxiliary behavior using sensor observations, terrain constraints and level-specific action selection |
 
-- [Parchis Game-Playing Agent](parchis-agent/)
-- [Rescue Simulation Agents](rescue-agent/)
+These are agent-source submissions for external course engines. The engines and standalone build configurations are not included; the project READMEs describe the dependencies and available evidence.
 
-## Technologies and formats
+**Language:** C++.
 
-C++.
-
-## Academic context
-
-Double Degree in Mathematics and Computer Science, University of Granada. Original source, reports, templates and contributor credits are retained.
+**Academic context:** Artificial Intelligence, Double Degree in Mathematics and Computer Science, University of Granada. Original course interfaces and source credits are retained.
